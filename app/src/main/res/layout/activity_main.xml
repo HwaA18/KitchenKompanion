@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
@@ -10,27 +11,63 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Welcome to your Kitchen Kompanion"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="1dp" />
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:layout_width="417dp"
-        android:layout_height="113dp"
-        tools:layout_editor_absoluteX="-4dp"
-        tools:layout_editor_absoluteY="537dp" >
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="87dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="80dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:onClick="openmain2"
+        android:scaleType="fitStart"
+        app:layout_constraintStart_toEndOf="@+id/imageButton5"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/grocery_list_icon_25" />
 
-        <ImageButton
-            android:id="@+id/imageButton4"
-            android:layout_width="114dp"
-            android:layout_height="wrap_content"
-            android:adjustViewBounds="false"
-            android:cropToPadding="false"
-            android:onClick="openmain2"
-            android:scaleType="fitStart"
-            app:srcCompat="@drawable/grocery_list_icon_25" />
-    </com.google.android.material.bottomnavigation.BottomNavigationView>
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="87dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="80dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:onClick="openmain2"
+        android:scaleType="fitStart"
+        app:layout_constraintStart_toEndOf="@+id/imageButton4"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/fridge_freezer" />
 
-</RelativeLayout>
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="87dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="80dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:onClick="openmain2"
+        android:scaleType="fitStart"
+        app:layout_constraintStart_toEndOf="@+id/imageButton6"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/kitchen_cabinet" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="63dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="80dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:onClick="openmain3"
+        android:scaleType="fitStart"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/chef_icon_png_13"
+        tools:layout_editor_absoluteX="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
