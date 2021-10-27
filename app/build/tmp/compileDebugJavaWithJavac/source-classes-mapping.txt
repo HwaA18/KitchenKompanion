@@ -1,0 +1,4 @@
+com/example/kitchenkompanion/BuildConfig.java
+ com.example.kitchenkompanion.BuildConfig
+com/example/kitchenkompanion/MainActivity.java
+ com.example.kitchenkompanion.MainActivity
