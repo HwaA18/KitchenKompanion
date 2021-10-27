@@ -7,24 +7,27 @@
     tools:context=".MainActivity2">
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/editTextItemName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="488dp"
         android:ems="10"
-        android:inputType="textPersonName"
         android:hint="Enter a new item"
-        tools:layout_editor_absoluteX="10dp"
-        tools:layout_editor_absoluteY="672dp" />
+        android:inputType="ItemName"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-1dp" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Add Item"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="484dp"
         android:onClick="onAddItem"
-        tools:layout_editor_absoluteX="278dp"
-        tools:layout_editor_absoluteY="672dp" />
+        android:text="Add Item"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
