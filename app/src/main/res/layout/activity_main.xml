@@ -5,72 +5,61 @@
     android:id="@+id/coordinatorLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_alignParentStart="true"
+    android:background="@drawable/back"
     tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="224dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:srcCompat="@drawable/chart" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="224dp"
+        android:layout_marginEnd="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cab" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="72dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/fridge" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:srcCompat="@drawable/recipe" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="347dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="176dp"
-        android:text="Welcome to your Kitchen Kompanion"
-        android:textSize="20sp"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="41dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton4"
-        android:layout_width="101dp"
-        android:layout_height="91dp"
-        android:layout_marginStart="72dp"
-        android:layout_marginTop="436dp"
-        android:adjustViewBounds="false"
-        android:cropToPadding="false"
-        android:onClick="openmain2"
-        android:scaleType="fitStart"
+        android:layout_width="250dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="80dp"
+        android:text="Welcome to the kitchen KompanionApp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/grocery_list_icon_25" />
-
-    <ImageButton
-        android:id="@+id/imageButton6"
-        android:layout_width="96dp"
-        android:layout_height="95dp"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="436dp"
-        android:adjustViewBounds="false"
-        android:cropToPadding="false"
-        android:onClick="openmain2"
-        android:scaleType="fitStart"
-        app:layout_constraintStart_toEndOf="@+id/imageButton4"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/fridge_freezer" />
-
-    <ImageButton
-        android:id="@+id/imageButton7"
-        android:layout_width="87dp"
-        android:layout_height="87dp"
-        android:layout_marginStart="96dp"
-        android:layout_marginTop="260dp"
-        android:adjustViewBounds="false"
-        android:cropToPadding="false"
-        android:onClick="openmain2"
-        android:scaleType="fitStart"
-        app:layout_constraintStart_toEndOf="@+id/imageButton5"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/kitchen_cabinet" />
-
-    <ImageButton
-        android:id="@+id/imageButton5"
-        android:layout_width="102dp"
-        android:layout_height="96dp"
-        android:layout_marginStart="72dp"
-        android:layout_marginTop="256dp"
-        android:adjustViewBounds="true"
-        android:cropToPadding="false"
-        android:onClick="openmain3"
-        android:scaleType="fitStart"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/chef_icon_png_13" />
-
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
