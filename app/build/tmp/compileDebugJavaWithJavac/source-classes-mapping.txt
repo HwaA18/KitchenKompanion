@@ -1,4 +1,14 @@
+com/example/kitchenkompanion/Item.java
+ com.example.kitchenkompanion.Item
 com/example/kitchenkompanion/BuildConfig.java
  com.example.kitchenkompanion.BuildConfig
+com/example/kitchenkompanion/RecipeActivity.java
+ com.example.kitchenkompanion.RecipeActivity
+com/example/kitchenkompanion/ChartActivity.java
+ com.example.kitchenkompanion.ChartActivity
+com/example/kitchenkompanion/FridgeActivity.java
+ com.example.kitchenkompanion.FridgeActivity
+com/example/kitchenkompanion/CabActivity.java
+ com.example.kitchenkompanion.CabActivity
 com/example/kitchenkompanion/MainActivity.java
  com.example.kitchenkompanion.MainActivity

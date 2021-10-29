@@ -20,6 +20,18 @@
         android:testOnly="true"
         android:theme="@style/Theme.KitchenKompanion" >
         <activity
+            android:name="com.example.kitchenkompanion.CabActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.kitchenkompanion.FridgeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.kitchenkompanion.RecipeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.kitchenkompanion.ChartActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.kitchenkompanion.MainActivity"
             android:exported="true" >
             <intent-filter>
