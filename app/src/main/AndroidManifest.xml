@@ -10,7 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KitchenKompanion">
         <activity
-            android:name=".MainActivity2"
+            android:name=".CabActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FridgeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RecipeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChartActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

@@ -11,14 +11,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        getSupportActionBar().setTitle("ShoppingList activity");
+        getSupportActionBar().setTitle("Kitchen Kompanion");
     }
 
-    public void openmain2(View view) {
-        startActivity(new Intent(this, MainActivity2.class));
-    }
 
-    public void openmain3 (View view) {
-        startActivity(new Intent(this, MainActivity3.class));
+    public void Shopping(View view) {
+        startActivity(new Intent(this, ChartActivity.class));
     }
 }
