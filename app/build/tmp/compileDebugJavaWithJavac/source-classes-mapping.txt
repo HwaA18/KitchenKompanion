@@ -8,6 +8,7 @@ com/example/kitchenkompanion/ChartActivity.java
  com.example.kitchenkompanion.ChartActivity
 com/example/kitchenkompanion/FridgeActivity.java
  com.example.kitchenkompanion.FridgeActivity
+ com.example.kitchenkompanion.FridgeActivity$1
 com/example/kitchenkompanion/CabActivity.java
  com.example.kitchenkompanion.CabActivity
 com/example/kitchenkompanion/MainActivity.java
