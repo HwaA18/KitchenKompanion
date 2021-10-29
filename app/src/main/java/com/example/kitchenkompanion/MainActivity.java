@@ -18,4 +18,8 @@ public class MainActivity extends AppCompatActivity {
     public void Shopping(View view) {
         startActivity(new Intent(this, ChartActivity.class));
     }
+
+    public void Fridge(View view) {
+        startActivity(new Intent(this, FridgeActivity.class));
+    }
 }
