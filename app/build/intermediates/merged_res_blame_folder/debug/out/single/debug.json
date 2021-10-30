@@ -12,12 +12,12 @@
         "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\cab.jpg"
     },
     {
-        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
         "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
         "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_chart.xml.flat",
@@ -30,6 +30,10 @@
     {
         "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\layout_lst.xml.flat",
+        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\layout\\lst.xml"
     },
     {
         "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
