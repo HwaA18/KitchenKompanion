@@ -4,6 +4,14 @@ com/example/kitchenkompanion/BuildConfig.java
  com.example.kitchenkompanion.BuildConfig
 com/example/kitchenkompanion/RecipeActivity.java
  com.example.kitchenkompanion.RecipeActivity
+<<<<<<< HEAD
+=======
+com/example/kitchenkompanion/ChartActivity.java
+ com.example.kitchenkompanion.ChartActivity
+com/example/kitchenkompanion/FridgeActivity.java
+ com.example.kitchenkompanion.FridgeActivity
+ com.example.kitchenkompanion.FridgeActivity$1
+>>>>>>> 12bbf1f43a5cf6ef18519c8e856448e873eba502
 com/example/kitchenkompanion/CabActivity.java
  com.example.kitchenkompanion.CabActivity
 com/example/kitchenkompanion/FridgeActivity.java
