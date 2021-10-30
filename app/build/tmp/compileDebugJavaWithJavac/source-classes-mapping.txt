@@ -1,23 +1,9 @@
-com/example/kitchenkompanion/MainActivity.java
- com.example.kitchenkompanion.MainActivity
+com/example/kitchenkompanion/Item.java
+ com.example.kitchenkompanion.Item
 com/example/kitchenkompanion/BuildConfig.java
  com.example.kitchenkompanion.BuildConfig
 com/example/kitchenkompanion/RecipeActivity.java
  com.example.kitchenkompanion.RecipeActivity
-<<<<<<< HEAD
-=======
-com/example/kitchenkompanion/ChartActivity.java
- com.example.kitchenkompanion.ChartActivity
-com/example/kitchenkompanion/FridgeActivity.java
- com.example.kitchenkompanion.FridgeActivity
- com.example.kitchenkompanion.FridgeActivity$1
->>>>>>> 12bbf1f43a5cf6ef18519c8e856448e873eba502
-com/example/kitchenkompanion/CabActivity.java
- com.example.kitchenkompanion.CabActivity
-com/example/kitchenkompanion/FridgeActivity.java
- com.example.kitchenkompanion.FridgeActivity
-com/example/kitchenkompanion/Item.java
- com.example.kitchenkompanion.Item
 com/example/kitchenkompanion/ChartActivity.java
  com.example.kitchenkompanion.ChartActivity
  com.example.kitchenkompanion.ChartActivity$1
@@ -25,3 +11,10 @@ com/example/kitchenkompanion/ItemAdapter.java
  com.example.kitchenkompanion.ItemAdapter
  com.example.kitchenkompanion.ItemAdapter$1
  com.example.kitchenkompanion.ItemAdapter$ViewHolder
+com/example/kitchenkompanion/FridgeActivity.java
+ com.example.kitchenkompanion.FridgeActivity
+ com.example.kitchenkompanion.FridgeActivity$1
+com/example/kitchenkompanion/CabActivity.java
+ com.example.kitchenkompanion.CabActivity
+com/example/kitchenkompanion/MainActivity.java
+ com.example.kitchenkompanion.MainActivity

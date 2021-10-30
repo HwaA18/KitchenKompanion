@@ -1,4 +1,4 @@
-#Sat Oct 30 17:26:19 EDT 2021
+#Sat Oct 30 18:10:40 EDT 2021
 base.2=C\:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
 path.2=7/classes.dex
 base.1=C\:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
