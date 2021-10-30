@@ -6,6 +6,11 @@ com/example/kitchenkompanion/RecipeActivity.java
  com.example.kitchenkompanion.RecipeActivity
 com/example/kitchenkompanion/ChartActivity.java
  com.example.kitchenkompanion.ChartActivity
+ com.example.kitchenkompanion.ChartActivity$1
+com/example/kitchenkompanion/ItemAdapter.java
+ com.example.kitchenkompanion.ItemAdapter
+ com.example.kitchenkompanion.ItemAdapter$1
+ com.example.kitchenkompanion.ItemAdapter$ViewHolder
 com/example/kitchenkompanion/FridgeActivity.java
  com.example.kitchenkompanion.FridgeActivity
  com.example.kitchenkompanion.FridgeActivity$1

@@ -1842,6 +1842,7 @@ id easeIn
 id easeInOut
 id easeOut
 id editTextTextPersonName
+id editTextTextPersonName2
 id editTextTextPersonName3
 id edit_query
 id elastic
@@ -1906,6 +1907,7 @@ id linear
 id listMode
 id list_item
 id listview
+id lv
 id masked
 id material_clock_display
 id material_clock_face
@@ -1960,6 +1962,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id name
 id navigation_header_container
 id never
 id noScroll
@@ -1986,8 +1989,10 @@ id percent
 id pin
 id position
 id postLayout
+id price
 id progress_circular
 id progress_horizontal
+id qty
 id radio
 id ratio
 id rectangles
@@ -2192,6 +2197,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout lst
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
