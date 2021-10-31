@@ -1,11 +1,19 @@
 package com.example.kitchenkompanion;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.recyclerview.widget.GridLayoutManager;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class MainActivity extends AppCompatActivity {
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Recipe(View view) {
-        startActivity(new Intent(this, RecipeActivity.class));
+        startActivity(new Intent(this, RecipeMainActivity.class));
     }
 
     public void Cabinet(View view) {
