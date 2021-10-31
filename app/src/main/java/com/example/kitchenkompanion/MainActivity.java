@@ -22,4 +22,12 @@ public class MainActivity extends AppCompatActivity {
     public void Fridge(View view) {
         startActivity(new Intent(this, FridgeActivity.class));
     }
+
+    public void Recipe(View view) {
+        startActivity(new Intent(this, RecipeActivity.class));
+    }
+
+    public void Cabinet(View view) {
+        startActivity(new Intent(this, CabActivity.class));
+    }
 }

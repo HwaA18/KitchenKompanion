@@ -1,3 +1,5 @@
+com/example/kitchenkompanion/Recipe.java
+ com.example.kitchenkompanion.Recipe
 com/example/kitchenkompanion/Item.java
  com.example.kitchenkompanion.Item
 com/example/kitchenkompanion/BuildConfig.java
