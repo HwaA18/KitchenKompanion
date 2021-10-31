@@ -30,6 +30,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="247dp"
         android:layout_marginEnd="55dp"
+        android:onClick="Cabinet"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/cab" />
@@ -57,6 +58,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="420dp"
         android:layout_marginEnd="55dp"
+        android:onClick="Recipe"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
         app:srcCompat="@drawable/recipe" />
