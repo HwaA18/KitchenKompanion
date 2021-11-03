@@ -23,6 +23,9 @@
             android:name="com.example.kitchenkompanion.CabActivity"
             android:exported="false" />
         <activity
+            android:name="com.example.kitchenkompanion.RecipeMainActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.kitchenkompanion.FridgeActivity"
             android:exported="false" />
         <activity
