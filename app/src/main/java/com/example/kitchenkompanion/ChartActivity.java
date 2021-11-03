@@ -1,8 +1,10 @@
 package com.example.kitchenkompanion;
 
-import androidx.appcompat.app.AppCompatActivity;
+
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -11,9 +13,15 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import org.apache.commons.io.FileUtils;
+
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
 import java.util.ArrayList;
 
-public class ChartActivity extends AppCompatActivity  {
+
+public class ChartActivity extends Activity {
 
     ListView liv;
     Button btn ;
@@ -24,9 +32,13 @@ public class ChartActivity extends AppCompatActivity  {
     ArrayAdapter<Item> adp ;
     ItemAdapter itemAdp;
     String nameStr;
+    String info = "";
     int qtySTr;
     double priceStr;
-    //int cnt;
+    File filesDir;
+    File todoFile;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +46,8 @@ public class ChartActivity extends AppCompatActivity  {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chart);
+
+
 
         liv =  findViewById(R.id.lv);
         btn = (Button) findViewById(R.id.button);
@@ -43,20 +57,26 @@ public class ChartActivity extends AppCompatActivity  {
         items = new ArrayList<>();
         itemAdp = new ItemAdapter(this,items);
         adp = new ArrayAdapter<Item>(this,
-                android.R.layout.simple_list_item_1, items);
-        //cnt = 0;
-        Item i = new Item("Beef", 4.0, 4);
+                android.R.layout.simple_spinner_dropdown_item, items);
+        filesDir = new File(getApplicationContext().getFilesDir(), "content.txt");
+
+
+        try {
+
+            FileUtils.writeStringToFile(filesDir, "Item Name\t" +
+                    "Price\t\tQuantity");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         Item t = new Item("bate", 50, 3);
-        //itemAdp.addItem(i);
-        //itemAdp.addItem(t);
+
+        itemAdp.addItem(t);
+        setupListViewListener();
 
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-
-
 
                 if(!name.getText().toString().isEmpty() && !price.getText().toString().isEmpty()
                         && !qty.getText().toString().isEmpty())
@@ -81,11 +101,19 @@ public class ChartActivity extends AppCompatActivity  {
                     }
 
                     Item item = new Item(nameStr, priceStr, qtySTr);
+                    info = ""+ nameStr+"\t"+priceStr+"\t\t"+qtySTr+"\n";
 
                     add(item);
                     name.setText("");
                     qty.setText("");
                     price.setText("");
+                    try {
+
+                        FileUtils.writeStringToFile(filesDir, info);
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+
 
                 }
 
@@ -94,15 +122,59 @@ public class ChartActivity extends AppCompatActivity  {
     }
 
 
+
+    public void setupListViewListener()
+    {
+        liv.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+            @Override
+            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
+
+
+
+                new AlertDialog.Builder(ChartActivity.this)
+                        .setIcon(android.R.drawable.ic_dialog_info)
+                        .setTitle("Inventory modification")
+                        .setMessage("Do you want to edit this item?")
+                        .setPositiveButton("Remove", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialogInterface, int i) {
+                                items.remove(position);
+
+                                // Refresh the adapter
+                                itemAdp.notifyDataSetChanged();
+                                adp.notifyDataSetChanged();
+                                // Return true consumes the long click event (marks it handled)
+
+                            }
+                        })
+                        .setNegativeButton("Cancel",null)
+                        .show();
+
+                return true;
+
+            }
+        });
+    }
     public void AddingItem(View view) {
 
 
     }
     public void add(Item ne) {
-        //items.add(ne);
+
         itemAdp.addItem(ne);
+
         liv.setAdapter(itemAdp);
         adp.notifyDataSetChanged();
 
     }
+
+
+    private void writeItems() {
+
+
+    }
+
+
+
+
 }

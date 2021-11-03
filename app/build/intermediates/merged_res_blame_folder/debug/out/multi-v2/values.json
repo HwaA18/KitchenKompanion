@@ -82,11 +82,19 @@
                 {
                     "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
+<<<<<<< Updated upstream
                         "startLines": "1,3,2",
                         "startColumns": "4,4,4",
                         "startOffsets": "17,124,72",
                         "endColumns": "53,51,50",
                         "endOffsets": "66,171,118"
+=======
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endColumns": "53",
+                        "endOffsets": "66"
+>>>>>>> Stashed changes
                     },
                     "to": {
                         "startLines": "1043,1058,1115",
