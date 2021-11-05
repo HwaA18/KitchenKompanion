@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
@@ -37,6 +38,14 @@ public class FridgeActivity extends AppCompatActivity {
         items.add("Banana");
         items.add("Mangoes");
 
+        listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+            @Override
+            public boolean onItemLongClick(AdapterView<?> adapterView, View view, int i, long l) {
+                remove(i);
+                return false;
+            }
+        });
+
         adapter = new ArrayAdapter<>(getApplicationContext(), android.R.layout.simple_list_item_1, items);
         listView.setAdapter(adapter);
 
@@ -57,6 +66,11 @@ public class FridgeActivity extends AppCompatActivity {
 
     public void addFood(String text) {
         items.add(text);
+        listView.setAdapter(adapter);
+    }
+
+    public void remove(int i) {
+        items.remove(i);
         listView.setAdapter(adapter);
     }
 
