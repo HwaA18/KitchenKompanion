@@ -26,7 +26,6 @@
 18-->C:\Users\akakp\Documents\GitHub\KitchenKompanion\app\src\main\AndroidManifest.xml:9:9-54
 19        android:supportsRtl="true"
 19-->C:\Users\akakp\Documents\GitHub\KitchenKompanion\app\src\main\AndroidManifest.xml:10:9-35
-<<<<<<< Updated upstream
 20        android:testOnly="true"
 21        android:theme="@style/Theme.KitchenKompanion" >
 21-->C:\Users\akakp\Documents\GitHub\KitchenKompanion\app\src\main\AndroidManifest.xml:11:9-54
@@ -80,51 +79,3 @@
 46    </application>
 47
 48</manifest>
-=======
-20        android:theme="@style/Theme.KitchenKompanion" >
-20-->C:\Users\akakp\Documents\GitHub\KitchenKompanion\app\src\main\AndroidManifest.xml:11:9-54
-21        <activity
-21-->C:\Users\akakp\Documents\GitHub\KitchenKompanion\app\src\main\AndroidManifest.xml:12:9-14:40
-22            android:name="com.example.kitchenkompanion.CabActivity"
-22-->C:\Users\akakp\Documents\GitHub\KitchenKompanion\app\src\main\AndroidManifest.xml:13:13-40
-23            android:exported="false" />
-23-->C:\Users\akakp\Documents\GitHub\KitchenKompanion\app\src\main\AndroidManifest.xml:14:13-37
-24        <activity
-24-->C:\Users\akakp\Documents\GitHub\KitchenKompanion\app\src\main\AndroidManifest.xml:15:9-17:40
-25            android:name="com.example.kitchenkompanion.FridgeActivity"
-25-->C:\Users\akakp\Documents\GitHub\KitchenKompanion\app\src\main\AndroidManifest.xml:16:13-43
-26            android:exported="false" />
-26-->C:\Users\akakp\Documents\GitHub\KitchenKompanion\app\src\main\AndroidManifest.xml:17:13-37
-27        <activity
-27-->C:\Users\akakp\Documents\GitHub\KitchenKompanion\app\src\main\AndroidManifest.xml:18:9-20:40
-28            android:name="com.example.kitchenkompanion.RecipeActivity"
-28-->C:\Users\akakp\Documents\GitHub\KitchenKompanion\app\src\main\AndroidManifest.xml:19:13-43
-29            android:exported="false" />
-29-->C:\Users\akakp\Documents\GitHub\KitchenKompanion\app\src\main\AndroidManifest.xml:20:13-37
-30        <activity
-30-->C:\Users\akakp\Documents\GitHub\KitchenKompanion\app\src\main\AndroidManifest.xml:21:9-23:40
-31            android:name="com.example.kitchenkompanion.ChartActivity"
-31-->C:\Users\akakp\Documents\GitHub\KitchenKompanion\app\src\main\AndroidManifest.xml:22:13-42
-32            android:exported="false" />
-32-->C:\Users\akakp\Documents\GitHub\KitchenKompanion\app\src\main\AndroidManifest.xml:23:13-37
-33        <activity
-33-->C:\Users\akakp\Documents\GitHub\KitchenKompanion\app\src\main\AndroidManifest.xml:24:9-32:20
-34            android:name="com.example.kitchenkompanion.MainActivity"
-34-->C:\Users\akakp\Documents\GitHub\KitchenKompanion\app\src\main\AndroidManifest.xml:25:13-41
-35            android:exported="true" >
-35-->C:\Users\akakp\Documents\GitHub\KitchenKompanion\app\src\main\AndroidManifest.xml:26:13-36
-36            <intent-filter>
-36-->C:\Users\akakp\Documents\GitHub\KitchenKompanion\app\src\main\AndroidManifest.xml:27:13-31:29
-37                <action android:name="android.intent.action.MAIN" />
-37-->C:\Users\akakp\Documents\GitHub\KitchenKompanion\app\src\main\AndroidManifest.xml:28:17-69
-37-->C:\Users\akakp\Documents\GitHub\KitchenKompanion\app\src\main\AndroidManifest.xml:28:25-66
-38
-39                <category android:name="android.intent.category.LAUNCHER" />
-39-->C:\Users\akakp\Documents\GitHub\KitchenKompanion\app\src\main\AndroidManifest.xml:30:17-77
-39-->C:\Users\akakp\Documents\GitHub\KitchenKompanion\app\src\main\AndroidManifest.xml:30:27-74
-40            </intent-filter>
-41        </activity>
-42    </application>
-43
-44</manifest>
->>>>>>> Stashed changes
