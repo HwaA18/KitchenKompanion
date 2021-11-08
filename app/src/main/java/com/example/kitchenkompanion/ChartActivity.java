@@ -303,6 +303,4 @@ public class ChartActivity extends Activity {
 
     }
 
-
-
 }
