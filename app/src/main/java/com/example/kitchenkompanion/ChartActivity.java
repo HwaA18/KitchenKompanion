@@ -1,6 +1,12 @@
 package com.example.kitchenkompanion;
 
-
+/*Description: In this class, a list of items and itemViews are
+ * created and manipulated to allow the user to add, remove and view
+ * items. As items are inserted or removed, a text file is updated. The file
+ * is saved under the context directory under the name "uptodate.txt"
+ * Author: Oscar Akakpo Ayewanou
+ * Date: 10/21/21
+ * */
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -29,7 +35,7 @@ public class ChartActivity extends Activity {
     Button btn ;
     Button end ;
     TextView name;
-    TextView price;
+    //TextView price;
     TextView expDate;
     TextView qty;
     ArrayList<Item> items;
@@ -38,7 +44,7 @@ public class ChartActivity extends Activity {
     String nameStr, expStr;
     String info = "";
     int qtySTr;
-    double priceStr;
+    //double priceStr;
     File filesDir, updated;
     FileOutputStream fileOut, fileOutUp;
     PrintWriter writer, writerUp;
@@ -54,11 +60,12 @@ public class ChartActivity extends Activity {
         setContentView(R.layout.activity_chart);
 
 
+        //Initialization of variables used
 
         liv =  findViewById(R.id.lv);
         btn = (Button) findViewById(R.id.button);
         name = (TextView) findViewById(R.id.editTextTextPersonName3);
-        price = (TextView) findViewById(R.id.editTextTextPersonName);
+        //price = (TextView) findViewById(R.id.editTextTextPersonName);
         qty = (TextView) findViewById(R.id.editTextTextPersonName2);
         end = (Button) findViewById(R.id.finish);
         expDate = (TextView) findViewById(R.id.exp) ;
@@ -76,16 +83,17 @@ public class ChartActivity extends Activity {
             e.printStackTrace();
         }
 
-
+        //The file pointer "filesDir" was used but replaced
         try {
             //File myObj = new File("inventory.txt");
-            Scanner myReader = new Scanner(filesDir);
+            //Load content of file into the items' array
+            Scanner myReader = new Scanner(updated);
             while (myReader.hasNextLine()) {
                 String data = myReader.nextLine();
                 String[] split = data.split("\\s+");
 
-                Item dummy = new Item(split[0],Double.parseDouble(split[1]),
-                        Integer.parseInt(split[2]), split[3]);
+                Item dummy = new Item(split[0],
+                        Integer.parseInt(split[1]), split[2]);
                 add(dummy);
             }
             myReader.close();
@@ -105,8 +113,8 @@ public class ChartActivity extends Activity {
             e.printStackTrace();
         }*/
 
-       Item r = new Item("jello", 30, 2, "02/22");
-       items.add(r);
+       //Item r = new Item("Juice", 1, "01/22");
+      // items.add(r);
 
         /*for(int i = 0; i< 5; i++)
         {
@@ -118,7 +126,7 @@ public class ChartActivity extends Activity {
 
         setupListViewListener();
 
-
+        //"Add item" button listener to insert an item in the list
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -132,8 +140,12 @@ public class ChartActivity extends Activity {
                 }*/
                 else
                 {
+                    //The text fields content are grabbed, then later on parsed to their
+                    //appropriate type
                     nameStr = name.getText().toString();
                     expStr = expDate.getText().toString();
+                    if(expStr == null || expStr.length() == 0)
+                        expStr = " ";
                     try
                     {
                         qtySTr = Integer.parseInt(qty.getText().toString());
@@ -143,20 +155,21 @@ public class ChartActivity extends Activity {
                         qtySTr = 0;
                     }
 
-                    try
+                   /* try
                     {
-                        priceStr = Double.parseDouble(price.getText().toString());
+                        //priceStr = Double.parseDouble(price.getText().toString());
                     }
                     catch (Exception e)
                     {
-                        priceStr = 0;
-                    }
+                        //priceStr = 0;
+                    }*/
 
-                    Item item = new Item(nameStr, priceStr, qtySTr, expStr);
-                    String p, q, ex;
+
+                    Item item = new Item(nameStr, qtySTr, expStr);
+                    String  q, ex;
                     nameStr = leftpad(nameStr, 15);
-                    p = ""+priceStr;
-                    p = leftpad(p, 15);
+                    //p = ""+priceStr;
+                    //p = leftpad(p, 15);
                     q = ""+qtySTr;
                     q = leftpad(q, 15);
 
@@ -164,7 +177,7 @@ public class ChartActivity extends Activity {
                     ex = leftpad(ex, 15);
 
 
-                    info = nameStr+p+q+ex;
+                    info = nameStr+q+ex;
                             //""+ item.getName()+"\t"+item.getPrice()+"\t"+item.getQuantity()
                             //+"\t"+item.getExp();
                     try {
@@ -179,7 +192,7 @@ public class ChartActivity extends Activity {
 
                     name.setText("");
                     qty.setText("");
-                    price.setText("");
+                    //price.setText("");
                     expDate.setText("");
 
 
@@ -190,6 +203,8 @@ public class ChartActivity extends Activity {
             }
         });
 
+        //"finish shopping" button listener to take the user back to
+        //the main page. Save current items in the list to .txt file
         end.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v)
@@ -207,10 +222,10 @@ public class ChartActivity extends Activity {
                     for(int i = 0; i<items.size();i++)
                     {
                         nameUp = leftpad(items.get(i).getName(), 15);
-                        priceUp = leftpad(""+items.get(i).getPrice(), 15);
+                        //priceUp = leftpad(""+items.get(i).getPrice(), 15);
                         qtyUp = leftpad(""+items.get(i).getQuantity(), 15);
                         expUp = leftpad(items.get(i).getExp(), 15);
-                        writerUp.println(nameUp+priceUp+qtyUp+expUp);
+                        writerUp.println(nameUp+qtyUp+expUp);
                     }
                     writerUp.flush();
                     writerUp.close();
@@ -225,7 +240,9 @@ public class ChartActivity extends Activity {
     }
 
 
-
+    //Long click listener for items present in the list
+    //It allows removing or editing an item. Note the editing
+    //functionality is still under construction
     public void setupListViewListener()
     {
         liv.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
@@ -269,6 +286,7 @@ public class ChartActivity extends Activity {
 
 
     }
+    //Function to insert an item in the adapter list
     public void add(Item ne) {
 
         itemAdp.addItem(ne);
@@ -276,12 +294,12 @@ public class ChartActivity extends Activity {
         adp.notifyDataSetChanged();
 
     }
-
+    //Function used to format string representation of the items
+    //for a good organization when written to file
     private String leftpad(String text, int length) {
         return String.format("%-" + length + "." + length + "s", text);
     }
     private void writeItems() {
-
 
     }
 
