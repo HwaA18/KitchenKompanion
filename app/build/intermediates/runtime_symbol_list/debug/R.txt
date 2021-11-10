@@ -1692,12 +1692,21 @@ int drawable notification_tile_bg 0x7f07009c
 int drawable notify_panel_notification_icon_bg 0x7f07009d
 int drawable orange1 0x7f07009e
 int drawable orange2 0x7f07009f
+<<<<<<< Updated upstream
 int drawable orangeback 0x7f0700a0
 int drawable pancake 0x7f0700a1
 int drawable pancakes 0x7f0700a2
 int drawable pasta 0x7f0700a3
 int drawable pasta1 0x7f0700a4
 int drawable recipe 0x7f0700a5
+=======
+int drawable pancake 0x7f0700a0
+int drawable pancakes 0x7f0700a1
+int drawable pasta 0x7f0700a2
+int drawable pasta1 0x7f0700a3
+int drawable recipe 0x7f0700a4
+int drawable subtle 0x7f0700a5
+>>>>>>> Stashed changes
 int drawable test_custom_background 0x7f0700a6
 int drawable tooltip_frame_dark 0x7f0700a7
 int drawable tooltip_frame_light 0x7f0700a8

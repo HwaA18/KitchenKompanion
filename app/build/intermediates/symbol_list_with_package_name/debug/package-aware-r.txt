@@ -1699,6 +1699,7 @@ drawable pancakes
 drawable pasta
 drawable pasta1
 drawable recipe
+drawable subtle
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
