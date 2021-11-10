@@ -36,7 +36,6 @@ public class ChartActivity extends Activity {
     Button btn ;
     Button end ;
     TextView name;
-    //TextView price;
     TextView expDate;
     TextView qty;
     ArrayList<Item> items;
@@ -45,13 +44,10 @@ public class ChartActivity extends Activity {
     String nameStr, expStr;
     String info = "";
     int qtySTr;
-    //double priceStr;
     File filesDir, updated;
     FileOutputStream fileOut, fileOutUp;
     PrintWriter writer, writerUp;
     Hashtable<String, Item> lookup = new Hashtable<>();
-
-
 
 
 
@@ -68,7 +64,7 @@ public class ChartActivity extends Activity {
         liv =  findViewById(R.id.lv);
         btn = (Button) findViewById(R.id.button);
         name = (TextView) findViewById(R.id.editTextTextPersonName3);
-        //price = (TextView) findViewById(R.id.editTextTextPersonName);
+
         qty = (TextView) findViewById(R.id.editTextTextPersonName2);
         end = (Button) findViewById(R.id.finish);
         expDate = (TextView) findViewById(R.id.exp) ;
@@ -148,12 +144,7 @@ public class ChartActivity extends Activity {
         lookup.put("yeast", new Item("Yeast", 1.25,1, false, "60 days"));
         lookup.put("bread", new Item("Bread", 2.50,1, false, "6 days"));
 
-        try {
-            fileOut = new FileOutputStream(filesDir, true);
-            writer = new PrintWriter(fileOut);
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
+
 
         //The file pointer "filesDir" was used but replaced
         try {
@@ -162,10 +153,16 @@ public class ChartActivity extends Activity {
             Scanner myReader = new Scanner(updated);
             while (myReader.hasNextLine()) {
                 String data = myReader.nextLine();
-                String[] split = data.split("\\s+");
-
-                Item dummy = new Item(split[0],
-                        Integer.parseInt(split[1]), split[2]);
+                String[] split = data.split("\\s+");// \\s+
+                Item dummy;
+                try {
+                     dummy = new Item(split[0],
+                            Integer.parseInt(split[1]), split[2]);
+                }catch (Exception e)
+                {
+                     dummy = new Item(split[0],
+                            1, " ");
+                }
                 add(dummy);
             }
             myReader.close();
@@ -173,26 +170,6 @@ public class ChartActivity extends Activity {
             System.out.println("An error occurred.");
             e.printStackTrace();
         }
-
-
-       /* try {
-            Date date = new Date();
-            SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yy");
-            String str = formatter.format(date);
-            writer.println("Item Name\t" +
-                    "Price\tQuantity\tExp.Date\n");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }*/
-
-       //Item r = new Item("Juice", 1, "01/22");
-      // items.add(r);
-
-        /*for(int i = 0; i< 5; i++)
-        {
-            items.add(r);
-            itemAdp.addItem(r);
-        }*/
 
 
 
@@ -205,11 +182,6 @@ public class ChartActivity extends Activity {
                 if(name.getText().toString() == null || name.getText().toString().length() == 0)
                     return;
 
-                /*if(!name.getText().toString().isEmpty() && !price.getText().toString().isEmpty()
-                        && !qty.getText().toString().isEmpty() && !expDate.getText().toString().isEmpty())
-                {
-
-                }*/
                 else
                 {
                     //The text fields content are grabbed, then later on parsed to their
@@ -224,36 +196,29 @@ public class ChartActivity extends Activity {
                     }
                     catch (Exception e)
                     {
-                        qtySTr = 0;
+                        qtySTr = 1;
                     }
 
-                   /* try
-                    {
-                        //priceStr = Double.parseDouble(price.getText().toString());
-                    }
-                    catch (Exception e)
-                    {
-                        //priceStr = 0;
-                    }*/
 
 
                     Item item = new Item(nameStr, qtySTr, expStr);
                     String  q, ex;
                     nameStr = leftpad(nameStr, 15);
-                    //p = ""+priceStr;
-                    //p = leftpad(p, 15);
+
                     q = ""+qtySTr;
                     q = leftpad(q, 15);
 
-                    ex = ""+expStr;
-                    ex = leftpad(ex, 15);
+                    ex = leftpad(expStr, 15);
 
 
-                    info = nameStr+q+ex;
-                            //""+ item.getName()+"\t"+item.getPrice()+"\t"+item.getQuantity()
-                            //+"\t"+item.getExp();
+                    info = nameStr+""+q+""+ex;
+
                     try {
-                        writer.println(info);
+                        fileOutUp = new FileOutputStream(updated);
+                        writerUp = new PrintWriter(fileOutUp);
+                        writerUp.println(info);
+                        writerUp.flush();
+                        writerUp.close();
 
                         //FileUtils.writeStringToFile(filesDir, info);
                     } catch (Exception e) {
@@ -264,7 +229,6 @@ public class ChartActivity extends Activity {
 
                     name.setText("");
                     qty.setText("");
-                    //price.setText("");
                     expDate.setText("");
 
 
@@ -281,20 +245,19 @@ public class ChartActivity extends Activity {
             @Override
             public void onClick(View v)
             {
-                try{
+               /*try{
                     writer.flush();
                     writer.close();
                 } catch (Exception e) {
                     e.printStackTrace();
-                }
+                }*/
                 try {
-                    String  nameUp, priceUp, qtyUp, expUp;
+                    String  nameUp, qtyUp, expUp;
                     fileOutUp = new FileOutputStream(updated);
                     writerUp = new PrintWriter(fileOutUp);
                     for(int i = 0; i<items.size();i++)
                     {
                         nameUp = leftpad(items.get(i).getName(), 15);
-                        //priceUp = leftpad(""+items.get(i).getPrice(), 15);
                         qtyUp = leftpad(""+items.get(i).getQuantity(), 15);
                         expUp = leftpad(items.get(i).getExp(), 15);
                         writerUp.println(nameUp+qtyUp+expUp);
