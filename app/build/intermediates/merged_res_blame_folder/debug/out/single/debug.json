@@ -128,16 +128,16 @@
         "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\chart.jpg"
     },
     {
-        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable_fridge.jpg.flat",
-        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\fridge.jpg"
+        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable_chicken_roll.jpg.flat",
+        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\chicken_roll.jpg"
     },
     {
         "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\layout_ch.xml.flat",
         "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\layout\\ch.xml"
     },
     {
-        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable_chicken_roll.jpg.flat",
-        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\chicken_roll.jpg"
+        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable_fridge.jpg.flat",
+        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\fridge.jpg"
     },
     {
         "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_fridge.xml.flat",
@@ -150,6 +150,10 @@
     {
         "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable_orange2.jpg.flat",
         "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\orange2.jpg"
+    },
+    {
+        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable_orangeback.jpg.flat",
+        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\orangeback.jpg"
     },
     {
         "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",

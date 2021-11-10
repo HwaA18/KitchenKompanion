@@ -1693,6 +1693,7 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable orange1
 drawable orange2
+drawable orangeback
 drawable pancake
 drawable pancakes
 drawable pasta
