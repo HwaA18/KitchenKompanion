@@ -49,9 +49,6 @@ public class ChartActivity extends Activity {
     FileOutputStream fileOut, fileOutUp;
     PrintWriter writer, writerUp;
 
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         lookup.put("milk", new Item("Milk", 3.69, 1, true, "21 days"));

@@ -9,14 +9,14 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class ItemAdapter extends BaseAdapter {
+public class InventoryAdapter extends BaseAdapter {
     private Context context;
     ArrayList<Item> lst = new ArrayList<>();
     TextView test;
 
 
 
-    public ItemAdapter(Context context, ArrayList<Item> list) {
+    public InventoryAdapter(Context context, ArrayList<Item> list) {
 
         this.context = context;
         this.lst = list;
@@ -60,18 +60,20 @@ public class ItemAdapter extends BaseAdapter {
 
 
             holder.name = (TextView) convertView.findViewById(R.id.name);
-            holder.price = (TextView) convertView.findViewById(R.id.price);
             holder.qty = (TextView) convertView.findViewById(R.id.qty);
+            holder.price = (TextView) convertView.findViewById(R.id.price);
+
 
             convertView.setTag(holder);
-        }else {
+        } else {
             // the getTag returns the viewHolder object set as a tag to the view
             holder = (ViewHolder)convertView.getTag();
         }
 
         holder.name.setText(lst.get(position).getName());
-        holder.price.setText(String.valueOf(lst.get(position).getPrice()));
+        //holder.price.setText(String.valueOf(lst.get(position).getPrice()));
         holder.qty.setText(String.valueOf(lst.get(position).getQuantity()));
+        holder.price.setText(String.valueOf(lst.get(position).getExp()));
 
         return convertView;
     }
