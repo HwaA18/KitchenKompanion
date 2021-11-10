@@ -68,6 +68,10 @@
         "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
+        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable_orange1.jpg.flat",
+        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\orange1.jpg"
+    },
+    {
         "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
@@ -142,6 +146,10 @@
     {
         "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_recipe.xml.flat",
         "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\layout\\activity_recipe.xml"
+    },
+    {
+        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable_orange2.jpg.flat",
+        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\orange2.jpg"
     },
     {
         "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",

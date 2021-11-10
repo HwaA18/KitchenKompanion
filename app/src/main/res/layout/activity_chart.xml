@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/back"
+    android:background="@drawable/orange2"
     tools:context=".ChartActivity">
 
     <EditText
@@ -40,7 +40,7 @@
         android:layout_marginTop="116dp"
         android:layout_marginEnd="92dp"
         android:onClick="AddingItem"
-        android:background="#16a307"
+        android:backgroundTint="#bf4215"
         android:text="Add Item"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -65,7 +65,7 @@
         android:layout_height="60dp"
         android:layout_marginStart="40dp"
         android:layout_marginTop="116dp"
-        android:background="#16a307"
+        android:backgroundTint="#bf4215"
         android:text="Finish Shopping"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -86,7 +86,7 @@
         android:textColor="#fff"
         android:textColorHint="@color/white"
         android:textSize="25sp"
-        android:background="#16a307"
+        android:background="#bf4215"
         android:text="Product Name        Exp.Date        Qty"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
