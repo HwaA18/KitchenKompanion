@@ -1,19 +1,23 @@
 [
     {
-        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/drawable_donut1.jpg.flat",
+        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/drawable/donut1.jpg"
     },
     {
         "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/drawable_donut1.jpg.flat",
-        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/drawable/donut1.jpg"
+        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
         "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/layout_recipe_main_page.xml.flat",
         "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/layout/recipe_main_page.xml"
+    },
+    {
+        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/drawable_remove.xml.flat",
+        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/drawable/remove.xml"
     },
     {
         "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/layout_activity_cab.xml.flat",
@@ -106,6 +110,10 @@
     {
         "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/drawable_fridge.jpg.flat",
         "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/drawable/fridge.jpg"
+    },
+    {
+        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/layout_inventory_list.xml.flat",
+        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/layout/inventory_list.xml"
     },
     {
         "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/drawable_recipe.jpg.flat",

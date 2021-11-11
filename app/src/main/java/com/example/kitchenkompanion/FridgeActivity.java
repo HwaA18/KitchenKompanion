@@ -1,13 +1,17 @@
 package com.example.kitchenkompanion;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.ListView;
+import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 import java.io.File;
@@ -22,13 +26,10 @@ import java.util.Locale;
 
 public class FridgeActivity extends AppCompatActivity {
 
-    ListView fridgeView;
-    ArrayList<Item> fridge;
-    InventoryAdapter fridgeAdapter;
-
-    ListView cabinetView;
-    ArrayList<Item> cabinet;
-    InventoryAdapter cabinetAdapter;
+    static ListView inventoryView;
+    static ArrayList<Item> items;
+    static InventoryAdapter itemsAdapter;
+    ArrayAdapter<Item> adapter;
     
     boolean displayFridge = true;
 
@@ -36,7 +37,7 @@ public class FridgeActivity extends AppCompatActivity {
     EditText quant;
     Button button;
 
-    Hashtable<String, Item> lookup = new Hashtable<>();
+    static Hashtable<String, Item> lookup = new Hashtable<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -112,26 +113,34 @@ public class FridgeActivity extends AppCompatActivity {
 
         getSupportActionBar().setTitle("Inventory");
 
-        fridgeView = findViewById(R.id.listview);
-        //cabinetView = findViewById(R.id.cabinetview);
+        LinearLayout rl = (LinearLayout) findViewById(R.id.buttons);
+        rl.bringToFront();
+
+        inventoryView = findViewById(R.id.listview);
 
         input = findViewById(R.id.editTextTextPersonName);
         button = findViewById(R.id.button2);
         quant = findViewById(R.id.quant);
 
-        fridge = new ArrayList<Item>();
+        items = new ArrayList<Item>();
 
-        Item milk = new Item("Milk", 3.69, 1, true, "11/15/21");
-        Item orange = new Item("Orange", 3, 6, true, "12/01/21");
+        Item milk = new Item("Milk", 3.69, 1, true, "11/15/2021");
+        Item orange = new Item("Orange", 3, 6, false, "12/01/2021");
+        Item notOrange = new Item("Apples", 3, 6, false, "12/01/2021");
 
 
-        fridgeAdapter = new InventoryAdapter(this, fridge);
-        cabinetAdapter = new InventoryAdapter(this, cabinet);
+        itemsAdapter = new InventoryAdapter(this, items);
+        items.add(new Item());
 
-        //cabinetAdapter.addItem(orange);
-        fridgeAdapter.addItem(milk);
+        inventoryView.setAdapter(itemsAdapter);
 
-        fridgeView.setAdapter(fridgeAdapter);
+        items.remove(0);
+
+        itemsAdapter.addItem(orange);
+        itemsAdapter.addItem(milk);
+
+        /*for(int i = 0; i < 15; i++)
+            itemsAdapter.addItem(notOrange); */
 
         button.setOnClickListener(new View.OnClickListener(){
 
@@ -153,7 +162,7 @@ public class FridgeActivity extends AppCompatActivity {
                 if(text == null || text.length() == 0) {
                     return;
                 } else {
-                    addFood(text, quantity);
+                    addFood(text, quantity, getApplicationContext());
                     input.setText("");
                     quant.setText("");
                 }
@@ -161,12 +170,14 @@ public class FridgeActivity extends AppCompatActivity {
         });
     }
 
-    public void addFood(String text, int quantity) {
+    public static void addFood(String text, int quantity, Context c) {
 
         int daysToExpire = -1;
+        boolean inFridge = false;
 
         if(lookup.get(text.toLowerCase()) != null) {
             daysToExpire = Integer.parseInt(lookup.get(text.toLowerCase()).getExp().split("\\s+")[0]);
+            inFridge = lookup.get(text.toLowerCase()).isInFridge();
         }
 
         LocalDate date = LocalDate.now();
@@ -176,16 +187,55 @@ public class FridgeActivity extends AppCompatActivity {
         String expDate = date.format(format);
 
         if(daysToExpire == -1) {
-            Toast.makeText(getApplicationContext(), "We do not have data on the given food item", Toast.LENGTH_LONG).show();
+            Toast.makeText(c, "We do not have expiration and fridge data on the given food item, so it is placed in the cabinet", Toast.LENGTH_LONG).show();
             expDate = "N/A";
         }
 
-        fridgeAdapter.addItem(new Item(text, 1, quantity, true, expDate));
-        fridgeView.setAdapter(fridgeAdapter);
+        itemsAdapter.addItem(new Item(text, 1, quantity, inFridge, expDate));
+        inventoryView.setAdapter(itemsAdapter);
 
+    }
+
+    public static void removeFood(int toRemove) {
+        itemsAdapter.removeItem(toRemove);
+        inventoryView.setAdapter(itemsAdapter);
     }
 
     public void onAddItem(View view) {
 
+    }
+
+    public void filterItems(boolean fridge) {
+
+        ArrayList<Item> filtered = new ArrayList<Item>();
+
+        for(Item item : items) {
+
+            if(item.isInFridge() == fridge) {
+                filtered.add(item);
+            }
+
+        }
+
+        InventoryAdapter filteredAdapter = new InventoryAdapter(this, filtered);
+        inventoryView.setAdapter(filteredAdapter);
+
+    }
+
+    public void filterAll(View view) {
+
+        InventoryAdapter adapter = new InventoryAdapter(this, items);
+        inventoryView.setAdapter(adapter);
+
+    }
+
+    public void filterFridge(View view) {
+
+        filterItems(true);
+
+    }
+
+    public void filterCabinet(View view) {
+        filterItems(false);
     }
 }

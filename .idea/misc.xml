@@ -9,6 +9,9 @@
         <entry key="app/src/main/res/layout/activity_chart.xml" value="0.20743243243243242" />
         <entry key="app/src/main/res/layout/activity_fridge.xml" value="0.1943980876562037" />
         <entry key="app/src/main/res/layout/cardview_recipe.xml" value="0.20743243243243242" />
+        <entry key="app/src/main/res/layout/inventoryLst.xml" value="0.20230263157894737" />
+        <entry key="app/src/main/res/layout/inventory_list.xml" value="0.21907894736842104" />
+        <entry key="app/src/main/res/layout/lst.xml" value="0.20230263157894737" />
       </map>
     </option>
   </component>

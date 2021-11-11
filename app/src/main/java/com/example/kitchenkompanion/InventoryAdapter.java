@@ -1,10 +1,12 @@
 package com.example.kitchenkompanion;
 
 import android.content.Context;
+import android.media.Image;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -27,11 +29,7 @@ public class InventoryAdapter extends BaseAdapter {
         lst.add(item);
     }
 
-    @Override
-    public int getViewTypeCount() {
-        return getCount();
-    }
-
+    public void removeItem(int pos) { lst.remove(pos); }
 
     @Override
     public int getCount() {
@@ -56,13 +54,21 @@ public class InventoryAdapter extends BaseAdapter {
             holder = new ViewHolder();
             LayoutInflater inflater = (LayoutInflater) context
                     .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            convertView = inflater.inflate(R.layout.lst, null, true);
+            convertView = inflater.inflate(R.layout.inventory_list, null, true);
 
 
             holder.name = (TextView) convertView.findViewById(R.id.name);
             holder.qty = (TextView) convertView.findViewById(R.id.qty);
-            holder.price = (TextView) convertView.findViewById(R.id.price);
+            holder.exp = (TextView) convertView.findViewById(R.id.exp);
 
+            ImageView remove = convertView.findViewById(R.id.remove);
+
+            remove.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    FridgeActivity.removeFood(position);
+                }
+            });
 
             convertView.setTag(holder);
         } else {
@@ -73,14 +79,14 @@ public class InventoryAdapter extends BaseAdapter {
         holder.name.setText(lst.get(position).getName());
         //holder.price.setText(String.valueOf(lst.get(position).getPrice()));
         holder.qty.setText(String.valueOf(lst.get(position).getQuantity()));
-        holder.price.setText(String.valueOf(lst.get(position).getExp()));
+        holder.exp.setText(String.valueOf(lst.get(position).getExp()));
 
         return convertView;
     }
 
     private class ViewHolder {
 
-        protected TextView name, price, qty;
+        protected TextView name, exp, qty;
 
     }
 }
