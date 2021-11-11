@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_alignParentStart="true"
-    android:background="@drawable/subtle"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
     <ImageView
@@ -15,8 +15,8 @@
         android:layout_height="125dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="3dp"
-        android:layout_marginTop="555dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="440dp"
         android:onClick="Shopping"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -28,8 +28,8 @@
         android:layout_height="125dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="145dp"
-        android:layout_marginTop="555dp"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="441dp"
         android:onClick="Fridge"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
@@ -41,8 +41,8 @@
         android:layout_height="125dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="555dp"
-        android:layout_marginEnd="3dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginEnd="6dp"
         android:onClick="Recipe"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/recipe" />
@@ -58,7 +58,7 @@
         android:layout_marginEnd="73dp"
         android:text="Welcome to the kitchen KompanionApp"
         android:textAlignment="center"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="24dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
