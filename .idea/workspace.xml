@@ -1,359 +1,287 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-    <component name="AndroidLayouts">
-        <shared>
-            <config>
-                <device id="pixel_4_xl" />
-                <device id="pixel_3_xl" />
-            </config>
-        </shared>
-    </component>
-    <component name="AndroidLogFilters">
-        <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
-    </component>
-    <component name="AutoImportSettings">
-        <option name="autoReloadType" value="NONE" />
-    </component>
-    <component name="ChangeListManager">
-        <list default="true" id="5ba067c7-de09-4923-9d5b-fc9e243a463c" name="Default Changelist" comment="">
-            <change afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
-            <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/remove.xml" afterDir="false" />
-            <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/inventory_list.xml" afterDir="false" />
-            <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin" afterDir="false" />
-            <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" afterDir="false" />
-            <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" afterDir="false" />
-            <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" afterDir="false" />
-            <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
-            <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/classAnalysis.bin" afterDir="false" />
-            <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/jarAnalysis.bin" afterDir="false" />
-            <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/javaCompile.lock" afterDir="false" />
-            <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/taskHistory.bin" afterDir="false" />
-            <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/BuildConfig.class" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/BuildConfig.dex" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/CabActivity.class" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/CabActivity.dex" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/ChartActivity$1.class" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/ChartActivity$1.dex" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/ChartActivity.class" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/ChartActivity.dex" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/FridgeActivity$1.class" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/FridgeActivity$1.dex" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/FridgeActivity.class" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/FridgeActivity.dex" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/Item.class" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/Item.dex" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/ItemAdapter$1.class" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/ItemAdapter$1.dex" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/ItemAdapter$ViewHolder.class" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/ItemAdapter$ViewHolder.dex" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/ItemAdapter.class" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/ItemAdapter.dex" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/MainActivity.class" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/MainActivity.dex" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/R.jar" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/RecipeActivity.class" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/RecipeActivity.dex" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/androidResources" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/app-debug.apk" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/buildOutputCleanup.lock" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/classAnalysis.bin" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/classes.dex" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/classes1.dex" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/drawable-v24_ic_launcher_foreground.xml.flat" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/drawable_back.jpg.flat" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/drawable_cab.jpg.flat" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/drawable_chart.jpg.flat" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/drawable_fridge.jpg.flat" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/drawable_ic_launcher_background.xml.flat" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/drawable_recipe.jpg.flat" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/executionHistory.bin" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/executionHistory.lock" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/fileHashes.bin" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/fileHashes.lock" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/javaCompile.lock" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/layout_activity_cab.xml.flat" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/layout_activity_chart.xml.flat" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/layout_activity_fridge.xml.flat" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/layout_activity_main.xml.flat" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/layout_activity_recipe.xml.flat" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/layout_lst.xml.flat" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/merge-state" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/mipmap-anydpi-v26_ic_launcher.xml.flat" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/mipmap-anydpi-v26_ic_launcher_round.xml.flat" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/mipmap-hdpi_ic_launcher.webp.flat" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/mipmap-hdpi_ic_launcher_round.webp.flat" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/mipmap-mdpi_ic_launcher.webp.flat" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/mipmap-mdpi_ic_launcher_round.webp.flat" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/mipmap-xhdpi_ic_launcher.webp.flat" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/mipmap-xhdpi_ic_launcher_round.webp.flat" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/out" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/resourceHashesCache.bin" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/resources-debug.ap_" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM_[Default_Changelist]/taskHistory.bin" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_3_2021_6_34_PM__Default_Changelist_.xml" beforeDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-            <change beforePath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
-            <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex" afterDir="false" />
-            <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/7/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/7/classes.dex" afterDir="false" />
-            <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" afterDir="false" />
-            <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
-            <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
-            <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-            <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
-            <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/kitchenkompanion/FridgeActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/kitchenkompanion/FridgeActivity$1.class" afterDir="false" />
-            <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/kitchenkompanion/FridgeActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/kitchenkompanion/FridgeActivity.class" afterDir="false" />
-            <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/kitchenkompanion/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/kitchenkompanion/Item.class" afterDir="false" />
-            <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/layout_activity_fridge.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/layout_activity_fridge.xml.flat" afterDir="false" />
-            <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" afterDir="false" />
-            <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
-            <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/kitchenkompanion/FridgeActivity$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/kitchenkompanion/FridgeActivity$1.dex" afterDir="false" />
-            <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/kitchenkompanion/FridgeActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/kitchenkompanion/FridgeActivity.dex" afterDir="false" />
-            <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/kitchenkompanion/Item.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/kitchenkompanion/Item.dex" afterDir="false" />
-            <change beforePath="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/R.txt" afterDir="false" />
-            <change beforePath="$PROJECT_DIR$/app/build/intermediates/stable_resource_ids_file/debug/stableIds.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/stable_resource_ids_file/debug/stableIds.txt" afterDir="false" />
-            <change beforePath="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
-            <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
-            <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" afterDir="false" />
-            <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kitchenkompanion/FridgeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/kitchenkompanion/FridgeActivity.java" afterDir="false" />
-            <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kitchenkompanion/InventoryAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/kitchenkompanion/InventoryAdapter.java" afterDir="false" />
-            <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kitchenkompanion/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/kitchenkompanion/Item.java" afterDir="false" />
-            <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_fridge.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_fridge.xml" afterDir="false" />
-        </list>
-        <option name="SHOW_DIALOG" value="false" />
-        <option name="HIGHLIGHT_CONFLICTS" value="true" />
-        <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
-        <option name="LAST_RESOLUTION" value="IGNORE" />
-    </component>
-    <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/Users/austinhwa/.android/avd/Pixel_4_XL_API_29.avd]" />
-    <component name="ExternalProjectsData">
-        <projectState path="$PROJECT_DIR$">
-            <ProjectState />
-        </projectState>
-    </component>
-    <component name="ExternalProjectsManager">
-        <system id="GRADLE">
-            <state>
-                <projects_view>
-                    <tree_state>
-                        <expand>
-                            <path>
-                                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                                <item name="KitchenKompanion" type="f1a62948:ProjectNode" />
-                            </path>
-                            <path>
-                                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                                <item name="KitchenKompanion" type="f1a62948:ProjectNode" />
-                                <item name="app" type="2d1252cf:ModuleNode" />
-                            </path>
-                            <path>
-                                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                                <item name="KitchenKompanion" type="f1a62948:ProjectNode" />
-                                <item name="app" type="2d1252cf:ModuleNode" />
-                                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                            </path>
-                        </expand>
-                        <select />
-                    </tree_state>
-                </projects_view>
-            </state>
-        </system>
-    </component>
-    <component name="FileTemplateManagerImpl">
-        <option name="RECENT_TEMPLATES">
-            <list>
-                <option value="Class" />
-            </list>
-        </option>
-    </component>
-    <component name="Git.Settings">
-        <option name="RECENT_BRANCH_BY_REPOSITORY">
-            <map>
-                <entry key="$PROJECT_DIR$" value="main" />
-            </map>
-        </option>
-        <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    </component>
-    <component name="GitSEFilterConfiguration">
-        <file-type-list>
-            <filtered-out-file-type name="LOCAL_BRANCH" />
-            <filtered-out-file-type name="REMOTE_BRANCH" />
-            <filtered-out-file-type name="TAG" />
-            <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-        </file-type-list>
-    </component>
-    <component name="ProjectId" id="1znEH1VxQA3JkQgSusk8d2DE37B" />
-    <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-        <ConfirmationsSetting value="2" id="Add" />
-    </component>
-    <component name="ProjectViewState">
-        <option name="hideEmptyMiddlePackages" value="true" />
-        <option name="showLibraryContents" value="true" />
-    </component>
-    <component name="PropertiesComponent">
-        <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-        <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-        <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-        <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
-        <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
-    </component>
-    <component name="PsdUISettings">
-        <option name="MODULE_TAB" value="Default Config" />
-    </component>
-    <component name="RecentsManager">
-        <key name="CopyFile.RECENT_KEYS">
-            <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
-            <recent name="C:\Users\akakp\Documents\GitHub\KitchenKompanion\app\src\main\res\drawable" />
-        </key>
-        <key name="MoveFile.RECENT_KEYS">
-            <recent name="C:\Users\akakp\Documents\GitHub\KitchenKompanion\app\src\main\res\drawable" />
-        </key>
-        <key name="android.template.-374485496">
-            <recent name="com.example.kitchenkompanion" />
-        </key>
-    </component>
-    <component name="RunManager">
-        <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
-            <module name="KitchenKompanion.app" />
-            <option name="DEPLOY" value="true" />
-            <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
-            <option name="DEPLOY_AS_INSTANT" value="false" />
-            <option name="ARTIFACT_NAME" value="" />
-            <option name="PM_INSTALL_OPTIONS" value="" />
-            <option name="ALL_USERS" value="false" />
-            <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
-            <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
-            <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-            <option name="MODE" value="default_activity" />
-            <option name="CLEAR_LOGCAT" value="false" />
-            <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-            <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-            <option name="FORCE_STOP_RUNNING_APP" value="true" />
-            <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
-            <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
-            <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-            <option name="DEBUGGER_TYPE" value="Auto" />
-            <Auto>
-                <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-                <option name="SHOW_STATIC_VARS" value="true" />
-                <option name="WORKING_DIR" value="" />
-                <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-                <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-            </Auto>
-            <Hybrid>
-                <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-                <option name="SHOW_STATIC_VARS" value="true" />
-                <option name="WORKING_DIR" value="" />
-                <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-                <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-            </Hybrid>
-            <Java />
-            <Native>
-                <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-                <option name="SHOW_STATIC_VARS" value="true" />
-                <option name="WORKING_DIR" value="" />
-                <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-                <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-            </Native>
-            <Profilers>
-                <option name="ADVANCED_PROFILING_ENABLED" value="false" />
-                <option name="STARTUP_PROFILING_ENABLED" value="false" />
-                <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
-                <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
-                <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
-                <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
-            </Profilers>
-            <option name="DEEP_LINK" value="" />
-            <option name="ACTIVITY_CLASS" value="" />
-            <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
-            <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
-            <method v="2">
-                <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-            </method>
-        </configuration>
-    </component>
-    <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-    <component name="TaskManager">
-        <task active="true" id="Default" summary="Default task">
-            <changelist id="5ba067c7-de09-4923-9d5b-fc9e243a463c" name="Default Changelist" comment="" />
-            <created>1634775360164</created>
-            <option name="number" value="Default" />
-            <option name="presentableId" value="Default" />
-            <updated>1634775360164</updated>
-        </task>
-        <task id="LOCAL-00001" summary="pageSetup">
-            <created>1634938687884</created>
-            <option name="number" value="00001" />
-            <option name="presentableId" value="LOCAL-00001" />
-            <option name="project" value="LOCAL" />
-            <updated>1634938687884</updated>
-        </task>
-        <task id="LOCAL-00002" summary="fixed_shoppingListAlignment">
-            <created>1635287445523</created>
-            <option name="number" value="00002" />
-            <option name="presentableId" value="LOCAL-00002" />
-            <option name="project" value="LOCAL" />
-            <updated>1635287445523</updated>
-        </task>
-        <task id="LOCAL-00003" summary="fixed_Homepage">
-            <created>1635290055205</created>
-            <option name="number" value="00003" />
-            <option name="presentableId" value="LOCAL-00003" />
-            <option name="project" value="LOCAL" />
-            <updated>1635290055205</updated>
-        </task>
-        <task id="LOCAL-00004" summary="Wed_10/27">
-            <created>1635349460068</created>
-            <option name="number" value="00004" />
-            <option name="presentableId" value="LOCAL-00004" />
-            <option name="project" value="LOCAL" />
-            <updated>1635349460068</updated>
-        </task>
-        <task id="LOCAL-00005" summary="Wed_10/27">
-            <created>1635349728738</created>
-            <option name="number" value="00005" />
-            <option name="presentableId" value="LOCAL-00005" />
-            <option name="project" value="LOCAL" />
-            <updated>1635349728738</updated>
-        </task>
-        <task id="LOCAL-00006" summary="Merged with the new changes from main">
-            <created>1635539185584</created>
-            <option name="number" value="00006" />
-            <option name="presentableId" value="LOCAL-00006" />
-            <option name="project" value="LOCAL" />
-            <updated>1635539185584</updated>
-        </task>
-        <task id="LOCAL-00007" summary="Added automatic expiration date">
-            <created>1636588118496</created>
-            <option name="number" value="00007" />
-            <option name="presentableId" value="LOCAL-00007" />
-            <option name="project" value="LOCAL" />
-            <updated>1636588118496</updated>
-        </task>
-        <option name="localTasksCounter" value="8" />
-        <servers />
-    </component>
-    <component name="Vcs.Log.Tabs.Properties">
-        <option name="TAB_STATES">
-            <map>
-                <entry key="MAIN">
-                    <value>
-                        <State />
-                    </value>
-                </entry>
-            </map>
-        </option>
-        <option name="oldMeFiltersMigrated" value="true" />
-    </component>
-    <component name="VcsManagerConfiguration">
-        <MESSAGE value="pageSetup" />
-        <MESSAGE value="fixed_shoppingListAlignment" />
-        <MESSAGE value="fixed_Homepage" />
-        <MESSAGE value="Wed_10/27" />
-        <MESSAGE value="Merged with the new changes from main" />
-        <MESSAGE value="Added automatic expiration date" />
-        <option name="LAST_COMMIT_MESSAGE" value="Added automatic expiration date" />
-    </component>
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <device id="pixel_4_xl" />
+        <device id="pixel_3_xl" />
+      </config>
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5ba067c7-de09-4923-9d5b-fc9e243a463c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/layout_activity_fridge.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/layout_activity_fridge.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/R.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/stable_resource_ids_file/debug/stableIds.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/stable_resource_ids_file/debug/stableIds.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_fridge.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_fridge.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/Users/austinhwa/.android/avd/Pixel_4_XL_API_29.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="KitchenKompanion" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="KitchenKompanion" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="KitchenKompanion" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1znEH1VxQA3JkQgSusk8d2DE37B" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Default Config" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+      <recent name="C:\Users\akakp\Documents\GitHub\KitchenKompanion\app\src\main\res\drawable" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\akakp\Documents\GitHub\KitchenKompanion\app\src\main\res\drawable" />
+    </key>
+    <key name="android.template.-374485496">
+      <recent name="com.example.kitchenkompanion" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="KitchenKompanion.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5ba067c7-de09-4923-9d5b-fc9e243a463c" name="Default Changelist" comment="" />
+      <created>1634775360164</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634775360164</updated>
+    </task>
+    <task id="LOCAL-00001" summary="pageSetup">
+      <created>1634938687884</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1634938687884</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fixed_shoppingListAlignment">
+      <created>1635287445523</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1635287445523</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fixed_Homepage">
+      <created>1635290055205</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1635290055205</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Wed_10/27">
+      <created>1635349460068</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1635349460068</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Wed_10/27">
+      <created>1635349728738</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1635349728738</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Merged with the new changes from main">
+      <created>1635539185584</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1635539185584</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added automatic expiration date">
+      <created>1636588118496</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1636588118496</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Merged with main">
+      <created>1636664750069</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1636664750069</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="pageSetup" />
+    <MESSAGE value="fixed_shoppingListAlignment" />
+    <MESSAGE value="fixed_Homepage" />
+    <MESSAGE value="Wed_10/27" />
+    <MESSAGE value="Merged with the new changes from main" />
+    <MESSAGE value="Added automatic expiration date" />
+    <MESSAGE value="Merged with main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merged with main" />
+  </component>
 </project>

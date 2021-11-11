@@ -1,13 +1,13 @@
-com/example/kitchenkompanion/RecipeMainActivity.java
- com.example.kitchenkompanion.RecipeMainActivity
+com/example/kitchenkompanion/BuildConfig.java
+ com.example.kitchenkompanion.BuildConfig
 com/example/kitchenkompanion/Recipe.java
  com.example.kitchenkompanion.Recipe
 com/example/kitchenkompanion/Recipes.java
  com.example.kitchenkompanion.Recipes
 com/example/kitchenkompanion/Item.java
  com.example.kitchenkompanion.Item
-com/example/kitchenkompanion/BuildConfig.java
- com.example.kitchenkompanion.BuildConfig
+com/example/kitchenkompanion/RecipeMainActivity.java
+ com.example.kitchenkompanion.RecipeMainActivity
 com/example/kitchenkompanion/RecipeActivity.java
  com.example.kitchenkompanion.RecipeActivity
 com/example/kitchenkompanion/ChartActivity.java
