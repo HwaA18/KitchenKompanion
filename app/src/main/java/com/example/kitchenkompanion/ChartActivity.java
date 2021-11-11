@@ -36,7 +36,7 @@ public class ChartActivity extends Activity {
     Button btn ;
     Button end ;
     TextView name;
-    TextView expDate;
+    //TextView expDate;
     TextView qty;
     ArrayList<Item> items;
     ArrayAdapter<Item> adp ;
@@ -67,7 +67,7 @@ public class ChartActivity extends Activity {
 
         qty = (TextView) findViewById(R.id.editTextTextPersonName2);
         end = (Button) findViewById(R.id.finish);
-        expDate = (TextView) findViewById(R.id.exp) ;
+        //expDate = (TextView) findViewById(R.id.exp) ;
         items = new ArrayList<>();
         itemAdp = new ItemAdapter(this,items);
 
@@ -154,10 +154,9 @@ public class ChartActivity extends Activity {
             while (myReader.hasNextLine()) {
                 String data = myReader.nextLine();
                 String[] split = data.split("\\s+");// \\s+
-                Item dummy;
-                try {
+                Item dummy;                try {
                      dummy = new Item(split[0],
-                            Integer.parseInt(split[1]), split[2]);
+                            Integer.parseInt(split[1]));//, split[2]);
                 }catch (Exception e)
                 {
                      dummy = new Item(split[0],
@@ -187,7 +186,7 @@ public class ChartActivity extends Activity {
                     //The text fields content are grabbed, then later on parsed to their
                     //appropriate type
                     nameStr = name.getText().toString();
-                    expStr = expDate.getText().toString();
+                    //expStr = expDate.getText().toString();
                     if(expStr == null || expStr.length() == 0)
                         expStr = " ";
                     try
@@ -201,17 +200,17 @@ public class ChartActivity extends Activity {
 
 
 
-                    Item item = new Item(nameStr, qtySTr, expStr);
-                    String  q, ex;
+                    Item item = new Item(nameStr, qtySTr);
+                    String  q;
                     nameStr = leftpad(nameStr, 15);
 
                     q = ""+qtySTr;
                     q = leftpad(q, 15);
 
-                    ex = leftpad(expStr, 15);
+                    //ex = leftpad(expStr, 15);
 
 
-                    info = nameStr+""+q+""+ex;
+                    info = nameStr+""+q;
 
                     try {
                         fileOutUp = new FileOutputStream(updated);
@@ -229,7 +228,7 @@ public class ChartActivity extends Activity {
 
                     name.setText("");
                     qty.setText("");
-                    expDate.setText("");
+                    //expDate.setText("");
 
 
 
@@ -293,6 +292,17 @@ public class ChartActivity extends Activity {
                         .setPositiveButton("Remove", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialogInterface, int i) {
+
+                                try{
+                                    fileOut = new FileOutputStream(filesDir,true);
+                                    writer = new PrintWriter(fileOut);
+                                    writer.println(items.get(position).toString());
+                                    writer.close();
+                                }catch (Exception e)
+                                {
+                                    e.printStackTrace();
+
+                                }
                                 items.remove(position);
 
                                 // Refresh the adapter

@@ -1,4 +1,8 @@
-#Wed Nov 10 11:31:11 EST 2021
+<<<<<<< Updated upstream
+#Wed Nov 10 18:48:11 EST 2021
+=======
+#Wed Nov 10 18:42:03 EST 2021
+>>>>>>> Stashed changes
 base.2=C\:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
 path.2=7/classes.dex
 base.1=C\:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
