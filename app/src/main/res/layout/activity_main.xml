@@ -6,45 +6,30 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_alignParentStart="true"
-    android:background="@drawable/back"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="130dp"
-        android:layout_height="130dp"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="55dp"
-        android:layout_marginTop="247dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="440dp"
         android:onClick="Shopping"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/chart" />
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="130dp"
-        android:layout_height="130dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="247dp"
-        android:layout_marginEnd="55dp"
-        android:onClick="Cabinet"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/cab" />
-
-    <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="130dp"
-        android:layout_height="130dp"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="55dp"
-        android:layout_marginTop="420dp"
-        android:layout_marginEnd="224dp"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="441dp"
         android:onClick="Fridge"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
@@ -52,15 +37,14 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="130dp"
-        android:layout_height="130dp"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="420dp"
-        android:layout_marginEnd="55dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginEnd="6dp"
         android:onClick="Recipe"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
         app:srcCompat="@drawable/recipe" />
 
     <TextView
@@ -74,7 +58,7 @@
         android:layout_marginEnd="73dp"
         android:text="Welcome to the kitchen KompanionApp"
         android:textAlignment="center"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="24dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

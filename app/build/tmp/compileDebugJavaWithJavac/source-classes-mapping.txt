@@ -21,18 +21,14 @@ com/example/kitchenkompanion/ItemAdapter.java
  com.example.kitchenkompanion.ItemAdapter
  com.example.kitchenkompanion.ItemAdapter$1
  com.example.kitchenkompanion.ItemAdapter$ViewHolder
+com/example/kitchenkompanion/FridgeActivity.java
+ com.example.kitchenkompanion.FridgeActivity
+ com.example.kitchenkompanion.FridgeActivity$1
+com/example/kitchenkompanion/CabActivity.java
+ com.example.kitchenkompanion.CabActivity
 com/example/kitchenkompanion/RecyclerViewAdapter.java
  com.example.kitchenkompanion.RecyclerViewAdapter
  com.example.kitchenkompanion.RecyclerViewAdapter$1
  com.example.kitchenkompanion.RecyclerViewAdapter$MyHolder
-com/example/kitchenkompanion/CabActivity.java
- com.example.kitchenkompanion.CabActivity
-com/example/kitchenkompanion/FridgeActivity.java
- com.example.kitchenkompanion.FridgeActivity
- com.example.kitchenkompanion.FridgeActivity$1
 com/example/kitchenkompanion/MainActivity.java
  com.example.kitchenkompanion.MainActivity
-com/example/kitchenkompanion/InventoryAdapter.java
- com.example.kitchenkompanion.InventoryAdapter
- com.example.kitchenkompanion.InventoryAdapter$1
- com.example.kitchenkompanion.InventoryAdapter$ViewHolder

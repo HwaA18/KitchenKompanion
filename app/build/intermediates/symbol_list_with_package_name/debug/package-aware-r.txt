@@ -1691,12 +1691,15 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable orange1
+drawable orange2
+drawable orangeback
 drawable pancake
 drawable pancakes
 drawable pasta
 drawable pasta1
 drawable recipe
-drawable remove
+drawable subtle
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1790,8 +1793,6 @@ id bounce
 id button
 id button2
 id buttonPanel
-id buttons
-id cabinet
 id cache_measures
 id cancel_button
 id cardview_id
@@ -1866,6 +1867,7 @@ id enterAlways
 id enterAlwaysCollapsed
 id exitUntilCollapsed
 id exp
+id expDate
 id expand_activities_button
 id expanded_menu
 id fade
@@ -1879,7 +1881,6 @@ id fixed
 id flip
 id floating
 id forever
-id fridge
 id ghost_view
 id ghost_view_holder
 id gone
@@ -1902,7 +1903,6 @@ id ignore
 id ignoreRequest
 id image
 id imageView2
-id imageView3
 id imageView4
 id imageView5
 id info
@@ -2008,11 +2008,9 @@ id percent
 id pin
 id position
 id postLayout
-id price
 id progress_circular
 id progress_horizontal
 id qty
-id quant
 id radio
 id ratio
 id recipe
@@ -2020,7 +2018,6 @@ id recipe_img_id
 id recipe_text
 id rectangles
 id recyclerView_id
-id remove
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2105,6 +2102,7 @@ id textStart
 id textTop
 id textView
 id textView2
+id textView3
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2226,7 +2224,6 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
-layout inventory_list
 layout lst
 layout material_chip_input_combo
 layout material_clock_display

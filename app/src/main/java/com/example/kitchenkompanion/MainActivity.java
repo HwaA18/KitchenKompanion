@@ -1,5 +1,9 @@
 package com.example.kitchenkompanion;
-
+/*Description: Main page of the app which contains 4 icons that
+ * when clicked take the user to a different activity
+ * Author: Oscar Akakpo Ayewanou, Austin Hwa, Kevin Tat
+ * Date: 10/21/21
+ * */
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.GridLayoutManager;

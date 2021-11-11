@@ -4,56 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/back"
+    android:background="@color/white"
     tools:context=".ChartActivity">
-
-    <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="85dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="124dp"
-        android:ems="10"
-        android:hint="Price"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/exp"
-        android:layout_width="150dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="120dp"
-        android:hint="MM/YY"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName2"
-        app:layout_constraintHorizontal_bias="0.053"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editTextTextPersonName3"
         android:layout_width="150dp"
         android:layout_height="45dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="260dp"
         android:ems="10"
         android:hint="Enter item name"
         android:inputType="textPersonName"
-        android:textColor="@color/white"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName"
-        app:layout_constraintHorizontal_bias="0.171"
-        app:layout_constraintStart_toStartOf="parent"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="80dp"
         android:layout_height="60dp"
-        android:layout_marginTop="84dp"
-        android:layout_marginEnd="28dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#003300"
         android:onClick="AddingItem"
         android:text="Add Item"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -61,11 +38,13 @@
         android:id="@+id/editTextTextPersonName2"
         android:layout_width="85dp"
         android:layout_height="45dp"
-        android:layout_marginTop="120dp"
-        android:layout_marginEnd="124dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="148dp"
         android:ems="10"
         android:hint="Qty"
         android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -73,19 +52,34 @@
         android:id="@+id/finish"
         android:layout_width="160dp"
         android:layout_height="60dp"
-        android:layout_marginStart="140dp"
-        android:layout_marginTop="184dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="120dp"
+        android:backgroundTint="#003300"
         android:text="Finish Shopping"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ListView
         android:id="@+id/lv"
-        android:layout_width="408dp"
-        android:layout_height="397dp"
-        android:layout_marginTop="268dp"
-        android:layout_marginEnd="4dp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="410dp"
+        android:layout_height="442dp"
+        android:layout_marginTop="272dp"
+        android:background="#003300"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="410dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="212dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="25sp"
+        android:background="#003300"
+        android:text=" Product Name                      Quantity"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
 
