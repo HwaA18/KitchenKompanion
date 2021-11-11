@@ -32,3 +32,7 @@ com/example/kitchenkompanion/RecyclerViewAdapter.java
  com.example.kitchenkompanion.RecyclerViewAdapter$MyHolder
 com/example/kitchenkompanion/MainActivity.java
  com.example.kitchenkompanion.MainActivity
+com/example/kitchenkompanion/InventoryAdapter.java
+ com.example.kitchenkompanion.InventoryAdapter
+ com.example.kitchenkompanion.InventoryAdapter$1
+ com.example.kitchenkompanion.InventoryAdapter$ViewHolder
