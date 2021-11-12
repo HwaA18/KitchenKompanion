@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_alignParentStart="true"
-    android:background="@color/white"
+    android:background="@drawable/back"
     tools:context=".MainActivity">
 
     <ImageView
@@ -56,9 +56,9 @@
         android:layout_marginStart="88dp"
         android:layout_marginTop="109dp"
         android:layout_marginEnd="73dp"
-        android:text="Welcome to the kitchen KompanionApp"
+        android:text="Welcome to the Kitchen Kompanion App"
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="24dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
