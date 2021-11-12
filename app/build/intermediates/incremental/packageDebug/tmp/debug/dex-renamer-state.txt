@@ -1,4 +1,4 @@
-#Thu Nov 11 16:28:32 EST 2021
+#Thu Nov 11 19:12:54 EST 2021
 base.2=/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/dex/debug/mergeProjectDexDebug/7/classes.dex
 path.2=7/classes.dex
 base.1=/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex

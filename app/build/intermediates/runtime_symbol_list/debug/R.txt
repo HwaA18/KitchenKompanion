@@ -1929,6 +1929,8 @@ int id linear 0x7f0800dd
 int id listMode 0x7f0800de
 int id list_item 0x7f0800df
 int id listview 0x7f0800e0
+int id load 0x7f0801bc
+int id loadButton 0x7f0801bd
 int id lv 0x7f0800e1
 int id masked 0x7f0800e2
 int id material_clock_display 0x7f0800e3

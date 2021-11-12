@@ -23,6 +23,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Hashtable;
 import java.util.Locale;
+import java.util.Scanner;
 
 public class FridgeActivity extends AppCompatActivity {
 
@@ -30,12 +31,15 @@ public class FridgeActivity extends AppCompatActivity {
     static ArrayList<Item> items;
     static InventoryAdapter itemsAdapter;
     ArrayAdapter<Item> adapter;
+
+    static Context c;
     
     boolean displayFridge = true;
 
     EditText input;
     EditText quant;
     Button button;
+    Button load;
 
     static Hashtable<String, Item> lookup = new Hashtable<>();
 
@@ -121,6 +125,9 @@ public class FridgeActivity extends AppCompatActivity {
         input = findViewById(R.id.editTextTextPersonName);
         button = findViewById(R.id.button2);
         quant = findViewById(R.id.quant);
+        load = findViewById(R.id.load);
+
+        c = getApplicationContext();
 
         items = new ArrayList<Item>();
 
@@ -168,6 +175,13 @@ public class FridgeActivity extends AppCompatActivity {
                 }
             }
         });
+
+        load.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                loadFromCart();
+            }
+        });
     }
 
     public static void addFood(String text, int quantity, Context c) {
@@ -199,6 +213,34 @@ public class FridgeActivity extends AppCompatActivity {
     public static void removeFood(int toRemove) {
         itemsAdapter.removeItem(toRemove);
         inventoryView.setAdapter(itemsAdapter);
+    }
+
+    private static void loadFromCart() {
+
+        try {
+            File file = new File(c.getFilesDir(), "inventory.txt");
+            //Load content of file into the items' array
+            Scanner myReader = new Scanner(file);
+            while (myReader.hasNextLine()) {
+                String data = myReader.nextLine();
+                String[] split = data.split("\\s+");// \\s+
+                Item temp;
+
+                try {
+                    temp = new Item(split[0],
+                            Integer.parseInt(split[1]));//, split[2]);
+                }catch (Exception e)
+                {
+                    temp = new Item(split[0],
+                            1, " ");
+                }
+                addFood(temp.getName(), temp.getQuantity(), inventoryView.getContext());
+            }
+            myReader.close();
+        } catch (FileNotFoundException e) {
+            System.out.println("An error occurred.");
+            e.printStackTrace();
+        }
     }
 
     public void onAddItem(View view) {
