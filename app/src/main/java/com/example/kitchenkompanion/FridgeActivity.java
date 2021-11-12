@@ -105,12 +105,15 @@ public class FridgeActivity extends AppCompatActivity {
         lookup.put("ham", new Item("Ham", 3.50, 1, true, "7 days"));
         lookup.put("fish", new Item("Fish", 9.99,1, true, "2 days"));
         lookup.put("crab", new Item("Crab", 19.99,1, true, "2 days"));
-        lookup.put("lobster", new Item("Lobster", 5.99,1, true, "2 months"));
+        lookup.put("lobster", new Item("Lobster", 5.99,1, true, "60 days"));
         lookup.put("shrimp", new Item("Shrimp", 15.99,1, true, "2 days"));
         lookup.put("sugar", new Item("Sugar", 2.59, 1, false, "720 days"));
         lookup.put("flour", new Item("Flour", 2.50,1, false, "120 days"));
         lookup.put("yeast", new Item("Yeast", 1.25,1, false, "60 days"));
         lookup.put("bread", new Item("Bread", 2.50,1, false, "6 days"));
+        lookup.put("beans", new Item("Beans", 1.75,1, false, "730 days"));
+        lookup.put("salsa", new Item("Salsa", 3.38, 1, true, "456 days"));
+        lookup.put("vegan crumbles", new Item("Vegan Crumbles", 3.84, 1, true, "365 days"));
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fridge);

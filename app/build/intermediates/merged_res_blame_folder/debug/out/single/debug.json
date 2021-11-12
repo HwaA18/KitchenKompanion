@@ -1,39 +1,15 @@
 [
     {
-        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
-    },
-    {
-        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/drawable_orange1.jpg.flat",
-        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/drawable/orange1.jpg"
-    },
-    {
         "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/drawable_donut1.jpg.flat",
-        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/drawable/donut1.jpg"
     },
     {
         "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/drawable_remove.xml.flat",
         "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/drawable/remove.xml"
     },
     {
-        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/layout_recipe_main_page.xml.flat",
-        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/layout/recipe_main_page.xml"
-    },
-    {
-        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/layout_activity_cab.xml.flat",
-        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/layout/activity_cab.xml"
-    },
-    {
-        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/drawable_chart.jpg.flat",
-        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/drawable/chart.jpg"
-    },
-    {
-        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/mipmap-mdpi/ic_launcher.webp"
+        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/drawable_balls.jpg.flat",
+        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/drawable/balls.jpg"
     },
     {
         "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/drawable_pasta.jpg.flat",
@@ -52,28 +28,12 @@
         "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/drawable/subtle.jpg"
     },
     {
-        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/drawable_pasta1.jpg.flat",
-        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/drawable/pasta1.jpg"
-    },
-    {
         "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.webp.flat",
         "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/mipmap-hdpi/ic_launcher.webp"
     },
     {
         "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/drawable_chicken_roll.jpg.flat",
         "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/drawable/chicken_roll.jpg"
-    },
-    {
-        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/layout_activity_recipe.xml.flat",
-        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/layout/activity_recipe.xml"
-    },
-    {
-        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/drawable_cab.jpg.flat",
-        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/drawable/cab.jpg"
     },
     {
         "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
@@ -84,16 +44,16 @@
         "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/drawable/dosa1.jpg"
     },
     {
+        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/drawable_steakpotatoes.jpg.flat",
+        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/drawable/steakpotatoes.jpg"
+    },
+    {
         "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/drawable-v24_ic_launcher_foreground.xml.flat",
         "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
     },
     {
         "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/drawable_ic_launcher_background.xml.flat",
-        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/drawable/ic_launcher_background.xml"
     },
     {
         "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.webp.flat",
@@ -108,6 +68,94 @@
         "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/layout/activity_chart.xml"
     },
     {
+        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/drawable_macandcheese.jpg.flat",
+        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/drawable/macandcheese.jpg"
+    },
+    {
+        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/layout_inventory_list.xml.flat",
+        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/layout/inventory_list.xml"
+    },
+    {
+        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/drawable_soup.jpg.flat",
+        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/drawable/soup.jpg"
+    },
+    {
+        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/drawable_recipe.jpg.flat",
+        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/drawable/recipe.jpg"
+    },
+    {
+        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/drawable_donut.jpg.flat",
+        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/drawable/donut.jpg"
+    },
+    {
+        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/drawable_pancake.jpg.flat",
+        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/drawable/pancake.jpg"
+    },
+    {
+        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/drawable_back.jpg.flat",
+        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/drawable/back.jpg"
+    },
+    {
+        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/drawable_orange2.jpg.flat",
+        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/drawable/orange2.jpg"
+    },
+    {
+        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/drawable_orange1.jpg.flat",
+        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/drawable/orange1.jpg"
+    },
+    {
+        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/drawable_donut1.jpg.flat",
+        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/drawable/donut1.jpg"
+    },
+    {
+        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/layout_recipe_main_page.xml.flat",
+        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/layout/recipe_main_page.xml"
+    },
+    {
+        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/layout_activity_cab.xml.flat",
+        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/layout/activity_cab.xml"
+    },
+    {
+        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/drawable_chart.jpg.flat",
+        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/drawable/chart.jpg"
+    },
+    {
+        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/drawable_pasta1.jpg.flat",
+        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/drawable/pasta1.jpg"
+    },
+    {
+        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/layout_activity_recipe.xml.flat",
+        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/layout/activity_recipe.xml"
+    },
+    {
+        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/drawable_cab.jpg.flat",
+        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/drawable/cab.jpg"
+    },
+    {
+        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/drawable_chili.jpg.flat",
+        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/drawable/chili.jpg"
+    },
+    {
         "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/drawable_fridge.jpg.flat",
         "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/drawable/fridge.jpg"
     },
@@ -120,20 +168,12 @@
         "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/layout/lst.xml"
     },
     {
-        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/layout_inventory_list.xml.flat",
-        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/layout/inventory_list.xml"
-    },
-    {
-        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/drawable_recipe.jpg.flat",
-        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/drawable/recipe.jpg"
+        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/drawable_spiced_chicken.jpg.flat",
+        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/drawable/spiced_chicken.jpg"
     },
     {
         "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/drawable_orangeback.jpg.flat",
         "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/drawable/orangeback.jpg"
-    },
-    {
-        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
         "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/layout_ch.xml.flat",
@@ -148,24 +188,8 @@
         "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/drawable_donut.jpg.flat",
-        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/drawable/donut.jpg"
-    },
-    {
         "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/layout_activity_fridge.xml.flat",
         "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/layout/activity_fridge.xml"
-    },
-    {
-        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/drawable_pancake.jpg.flat",
-        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/drawable/pancake.jpg"
-    },
-    {
-        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/drawable_back.jpg.flat",
-        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/drawable/back.jpg"
-    },
-    {
-        "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/drawable_orange2.jpg.flat",
-        "source": "/Users/austinhwa/Documents/434/KitchenKompanion/app/src/main/res/drawable/orange2.jpg"
     },
     {
         "merged": "/Users/austinhwa/Documents/434/KitchenKompanion/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.webp.flat",
