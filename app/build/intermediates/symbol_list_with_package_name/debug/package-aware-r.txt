@@ -1699,6 +1699,7 @@ drawable pancakes
 drawable pasta
 drawable pasta1
 drawable recipe
+drawable remove
 drawable subtle
 drawable test_custom_background
 drawable tooltip_frame_dark
@@ -1793,6 +1794,8 @@ id bounce
 id button
 id button2
 id buttonPanel
+id buttons
+id cabinet
 id cache_measures
 id cancel_button
 id cardview_id
@@ -1881,6 +1884,7 @@ id fixed
 id flip
 id floating
 id forever
+id fridge
 id ghost_view
 id ghost_view_holder
 id gone
@@ -1913,6 +1917,7 @@ id italic
 id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
+id label
 id labelGroup
 id labeled
 id largeLabel
@@ -1925,6 +1930,8 @@ id linear
 id listMode
 id list_item
 id listview
+id load
+id loadButton
 id lv
 id masked
 id material_clock_display
@@ -2011,6 +2018,7 @@ id postLayout
 id progress_circular
 id progress_horizontal
 id qty
+id quant
 id radio
 id ratio
 id recipe
@@ -2018,6 +2026,7 @@ id recipe_img_id
 id recipe_text
 id rectangles
 id recyclerView_id
+id remove
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2224,6 +2233,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout inventory_list
 layout lst
 layout material_chip_input_combo
 layout material_clock_display
