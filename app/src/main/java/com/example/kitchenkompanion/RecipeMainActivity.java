@@ -62,6 +62,57 @@ public class RecipeMainActivity extends AppCompatActivity {
                 "2 cups spicy salsa or your favorite salsa\n" +
                 "1 ½ cups vegan crumbles - i.e. Beyond Meat Beefy Crumbles", "Steps", "Bring pinto beans, salsa, vegan crumbles, and water to a boil. Simmer for 8 minutes. If mixture becomes too think, add more water.", R.drawable.chili, "vegan"));
 
+
+        recipes1.add(new Recipes("Spiced Chicken", "\n" +
+                "    8 boneless skinless chicken thighs\n" +
+                "    2 teaspoons chili powder\n" +
+                "    2 teaspoons smoked paprika\n" +
+                "    2 teaspoons garlic powder\n" +
+                "    1 teaspoon cumin\n" +
+                "    1 teaspoon kosher salt\n" +
+                "    1 teaspoon fresh cracked pepper\n" +
+                "    1 teaspoon red pepper flakes\n" +
+                "    1/2 teaspoon dried oregano\n" +
+                "    1/2 cup honey\n" +
+                "    2 tablespoons apple cider vinegar\n", "Instructions", "    Un-tuck chicken thighs so they are flat.\n" +
+                "    In a small bowl mix together chili powder, smoked paprika, garlic powder, cumin, kosher salt, black pepper, red pepper flakes, and dried oregano.\n" +
+                "    Cover both sides in seasoning, set flat onto a sheet pan.\n" +
+                "    On your oven, set your broiler to low heat and move the rack near the top of the oven.\n" +
+                "    Add the chicken to the oven and cook for 5-7 minutes and flip the chicken.\n" +
+                "    Cook for 5-7 minutes on the other side.\n" +
+                "    Remove chicken from the oven, flip, and baste the chicken in honey apple cider vinegar mixture.\n" +
+                "    Add chicken back to the oven and let it cook under the broiler for a few minutes until the honey starts to thicken up and glaze. It may smoke a little but this is completely normal.\n" +
+                "    Take chicken out of the oven and let rest for a few minutes before serving.\n" +
+                "    * If you have a gas oven and your broiler is at the bottom you can bake the chicken at 400 degrees for about 15 - 20 mins.", R.drawable.spiced_chicken, "meat"));
+
+        recipes1.add(new Recipes("Carrot Soup", "    1 tbsp vegetable oil\n" +
+                "    1 onion, chopped\n" +
+                "    1 tsp ground coriander\n" +
+                "    1 potato, chopped\n" +
+                "    450g carrots, peeled and chopped\n" +
+                "    handful coriander (about ½ a supermarket packet)", "Instructions", "    STEP 1\n" +
+                "\n" +
+                "    Heat 1 tbsp vegetable oil in a large pan, add 1 chopped onion, then fry for 5 mins until softened.\n" +
+                "    STEP 2\n" +
+                "\n" +
+                "    Stir in 1 tsp ground coriander and 1 chopped potato, then cook for 1 min.\n" +
+                "    STEP 3\n" +
+                "\n" +
+                "    Add the 450g peeled and chopped carrots and 1.2l vegetable or chicken stock, bring to the boil, then reduce the heat.\n" +
+                "    STEP 4\n" +
+                "\n" +
+                "    Cover and cook for 20 mins until the carrots are tender.\n" +
+                "    STEP 5\n" +
+                "\n" +
+                "    Tip into a food processor with a handful of coriander then blitz until smooth (you may need to do this in two batches). Return to pan, taste, add salt if necessary, then reheat to serve.", R.drawable.soup, "vegan"));
+        recipes1.add(new Recipes("Onion Stuffing Balls", "    2 tablespoons olive or rapeseed oil plus extra for greasing\n" +
+                "    1 red onion\n" +
+                "    3 teaspoons dried sage\n" +
+                "    2 teaspoons dried mixed herbs\n" +
+                "    500 g plain pork sausage meat ensure gluten, egg, nut and dairy free, as necessary", "Instructions","    Preheat your oven to 220C / 200C / gas mark 7 / 425F and grease an oven tray enough to hold all the stuffing balls.\n" +
+                "    Drizzle about 2 tablespoons of olive oil into a saucepan. Add the diced onion and put the lid on. Cook over a low heat for about 5 minutes, stirring occasionally, until the onion is soft but not brown.\n" +
+                "    When the onions are ready, tip into a bowl and add the sausage meat, herbs, salt and pepper and stir thoroughly.\n" +
+                "    Divide the mixture into 12 and shape into balls. Place in your greased tin(s) and cook for 20-25 minutes or until they are golden brown and cooked through.", R.drawable.balls, "allergy free" ));
         recipes1.add(new Recipes("Chicken Roll", "200 gm chopped into cubes chicken" +
                 "1 medium chopped tomato" +
                 "1/2 pinch red chilli powder" +

@@ -9,6 +9,7 @@ public class Recipes {
     int thumbnail;
     String category;
 
+
     public Recipes(String name, String ingredients, String title, String recipe, int thumbnail, String category) {
         this.name = name;
         this.ingredients = ingredients;

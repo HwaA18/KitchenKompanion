@@ -16,6 +16,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical"
             >
+
             <TextView
                 android:id="@+id/text_recipe"
                 android:layout_width="wrap_content"
@@ -53,7 +54,14 @@
                 android:textSize="20sp"
                 android:text="@string/ingredients"
 
+
                 />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="COOK IT!"
+                android:onClick="inventoryCheck"
+                ></Button>
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 </LinearLayout>
