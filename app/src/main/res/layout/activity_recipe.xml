@@ -10,6 +10,7 @@
         android:layout_height="match_parent"
         android:layout_marginTop="10dp"
         android:padding="10dp"
+        android:background="@drawable/back"
         >
         <LinearLayout
             android:layout_width="match_parent"
@@ -23,6 +24,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="@string/recipeName"
+                android:textColor="@color/white"
                 android:textSize="21sp"
                 android:textStyle="bold"
                 />
@@ -33,6 +35,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_margin="18dp"
                 android:textSize="20sp"
+                android:textColor="@color/white"
                 android:text="@string/ingredients"
 
                 />
@@ -41,12 +44,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:textColor="@color/white"
                 android:text="@string/recipeName"
                 android:textSize="21sp"
                 android:textStyle="bold"
                 />
             <TextView
                 android:id="@+id/recipe"
+                android:textColor="@color/white"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
