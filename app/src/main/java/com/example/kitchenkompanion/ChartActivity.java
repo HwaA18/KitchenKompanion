@@ -143,6 +143,9 @@ public class ChartActivity extends Activity {
         lookup.put("flour", new Item("Flour", 2.50,1, false, "120 days"));
         lookup.put("yeast", new Item("Yeast", 1.25,1, false, "60 days"));
         lookup.put("bread", new Item("Bread", 2.50,1, false, "6 days"));
+        lookup.put("beans", new Item("Beans", 1.75,1, false, "730 days"));
+        lookup.put("salsa", new Item("Salsa", 3.38, 1, true, "456 days"));
+        lookup.put("vegan crumbles", new Item("Vegan Crumbles", 3.84, 1, true, "365 days"));
 
 
 

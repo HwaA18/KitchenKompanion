@@ -28,6 +28,40 @@ public class RecipeMainActivity extends AppCompatActivity {
         setContentView(R.layout.recipe_main_page);
 
         recipes1 = new ArrayList<>();
+
+        String[] steakIng = {"potatoes", "cheese", "salt", "olive oil", "black pepper", "beef"};
+        recipes1.add(new Recipes("3 Ingredient Steak with Potatoes", "\n" +
+                "2 pounds small new potatoes\n" +
+                "Salt\n" +
+                "1/2 cup olive oil, divided\n" +
+                "3/4 cup grated Parmesan\n" +
+                "1 (1 1/2-pound) hanger steak\n" +
+                "Freshly ground black pepper", "Instructions", "Step 1\n" +
+                "Place potatoes in a medium pot; add cold water to cover by 1\". Season with salt, bring to a boil, and cook until potatoes are fork-tender, 12–15 minutes. Transfer to a rimmed baking sheet; let cool slightly, then lightly crush with your palm.\n" +
+                "\n" +
+                "Step 2\n" +
+                "Heat 3 Tbsp. oil in a large heavy skillet over medium-high. Reduce heat to medium-low and add half of the potatoes; season with 3/4 tsp. salt. Cook, turning once, until golden brown, 15–20 minutes. Transfer potatoes to a plate. Add 3 Tbsp. oil, 3/4 tsp. salt, and remaining potatoes to pan; cook, turning once, until golden brown, 15–20 minutes. Return all potatoes to pan, sprinkle with cheese, and cook, tossing to coat, until cheese begins to crisp, 1–2 more minutes.\n" +
+                "\n" +
+                "Step 3\n" +
+                "Meanwhile, heat remaining 2 Tbsp. oil in a large skillet over medium-high. Season steak with salt and pepper and cook, turning occasionally, until deep brown and an instant-read thermometer registers 125°F for medium-rare, about 3 minutes per side.\n" +
+                "\n" +
+                "Step 4\n" +
+                "Transfer steak to a cutting board. Thinly slice steak against the grain and serve with potatoes alongside.", R.drawable.steakpotatoes, "meat"));
+
+
+        String[] macIng = {"pasta", "cheese", "milk"};
+        recipes1.add(new Recipes("3 ingredient Mac & Cheese", "5 cups milk\n" +
+                "1 lb elbow macaroni, dry\n" +
+                "2 cups shredded cheddar cheese", "Steps", "1. In a large pot, bring the milk to a boil.\n" +
+                "2. Add the pasta and stir constantly until the pasta is cooked, about 10 minutes.\n" +
+                "3. Turn off the heat, then add the cheddar. Stir until the cheese is melted and the pasta is evenly coated.\n" +
+                "4. Enjoy!\n", R.drawable.macandcheese, "vegetarian"));
+
+        String[]  chiliIng = {"beans", "salsa", "vegan crumbles"};
+        recipes1.add(new Recipes("3 Ingredient Chili", "15.5 ounce can pinto beans\n" +
+                "2 cups spicy salsa or your favorite salsa\n" +
+                "1 ½ cups vegan crumbles - i.e. Beyond Meat Beefy Crumbles", "Steps", "Bring pinto beans, salsa, vegan crumbles, and water to a boil. Simmer for 8 minutes. If mixture becomes too think, add more water.", R.drawable.chili, "vegan"));
+
         recipes1.add(new Recipes("Chicken Roll", "200 gm chopped into cubes chicken" +
                 "1 medium chopped tomato" +
                 "1/2 pinch red chilli powder" +
