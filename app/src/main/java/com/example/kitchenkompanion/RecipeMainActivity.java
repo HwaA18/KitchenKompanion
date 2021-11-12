@@ -21,6 +21,9 @@ public class RecipeMainActivity extends AppCompatActivity {
     RecyclerViewAdapter myAdapter;
 
     List<Recipes> recipes1;
+    String[] macIng = {"pasta", "cheese", "milk"};
+    String[] steakIng = {"potatoes", "cheese", "salt", "olive oil", "black pepper", "beef"};
+    String[]  chiliIng = {"beans", "salsa", "vegan crumbles"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

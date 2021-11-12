@@ -17,6 +17,8 @@ import android.widget.Toast;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.io.PrintWriter;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -282,5 +284,20 @@ public class FridgeActivity extends AppCompatActivity {
 
     public void filterCabinet(View view) {
         filterItems(false);
+    }
+
+    public void writeToFile(View view) {
+        try{
+            File filesDir = new File(FridgeActivity.this.getFilesDir(), "current_inventory.txt");
+            FileOutputStream fileOut = new FileOutputStream(filesDir,true);
+            PrintWriter writer = new PrintWriter(fileOut);
+            for(Item i : items) {
+                writer.println(i.toString());
+            }
+            writer.close();
+        }catch (Exception e)
+        {
+            e.printStackTrace();
+        }
     }
 }
