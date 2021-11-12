@@ -1629,6 +1629,7 @@ drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
 drawable back
+drawable balls
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1640,6 +1641,7 @@ drawable btn_radio_on_to_off_mtrl_animation
 drawable cab
 drawable chart
 drawable chicken_roll
+drawable chili
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1659,6 +1661,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable macandcheese
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1700,6 +1703,9 @@ drawable pasta
 drawable pasta1
 drawable recipe
 drawable remove
+drawable soup
+drawable spiced_chicken
+drawable steakpotatoes
 drawable subtle
 drawable test_custom_background
 drawable tooltip_frame_dark
@@ -1775,6 +1781,7 @@ id add
 id alertTitle
 id aligned
 id all
+id allergyFree
 id always
 id animateToEnd
 id animateToStart
@@ -1955,6 +1962,7 @@ id material_timepicker_mode_button
 id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
+id meat
 id message
 id method
 id middle
@@ -2146,6 +2154,8 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id vegan
+id vegetarian
 id view_offset_helper
 id visible
 id withText
