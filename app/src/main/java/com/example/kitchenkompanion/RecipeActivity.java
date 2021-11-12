@@ -1,9 +1,13 @@
 package com.example.kitchenkompanion;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.FileObserver;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
@@ -17,6 +21,7 @@ public class RecipeActivity extends AppCompatActivity {
     private TextView mRecipeIngredients;
     private TextView mRecipeMethodTitle;
     private TextView mRecipe;
+    public static ArrayList<Item> it = FridgeActivity.items;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,5 +47,13 @@ public class RecipeActivity extends AppCompatActivity {
     }
 
     public void inventoryCheck(View view) {
+        for(Item i : it) {
+            Log.d("HWAIJDOIASJDOAISJDOAIWJDOAIWJDOASJDOAS",i.getName());
+        }
+    }
+
+    public void loadInventory(View view) {
+        Toast.makeText(getApplicationContext(), "Go to the Inventory first!",
+                Toast.LENGTH_LONG).show();
     }
 }

@@ -31,12 +31,6 @@ public class ItemAdapter extends BaseAdapter {
     }
 
     @Override
-    public int getViewTypeCount() {
-        return getCount();
-    }
-
-
-    @Override
     public int getCount() {
         return lst.size();
     }

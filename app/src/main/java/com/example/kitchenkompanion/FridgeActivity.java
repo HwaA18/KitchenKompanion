@@ -28,7 +28,7 @@ import java.util.Scanner;
 public class FridgeActivity extends AppCompatActivity {
 
     static ListView inventoryView;
-    static ArrayList<Item> items;
+    static ArrayList<Item> items = new ArrayList<Item>();
     static InventoryAdapter itemsAdapter;
     ArrayAdapter<Item> adapter;
 
