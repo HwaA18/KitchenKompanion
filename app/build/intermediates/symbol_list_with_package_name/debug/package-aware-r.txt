@@ -1932,6 +1932,8 @@ id list_item
 id listview
 id load
 id loadButton
+id longpresshint
+id longpresshintparent
 id lv
 id masked
 id material_clock_display
@@ -2027,6 +2029,7 @@ id recipe_text
 id rectangles
 id recyclerView_id
 id remove
+id removehint
 id reverseSawtooth
 id right
 id rightToLeft
