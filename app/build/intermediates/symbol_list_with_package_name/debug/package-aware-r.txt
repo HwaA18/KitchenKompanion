@@ -1626,9 +1626,12 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable add
 drawable avd_hide_password
 drawable avd_show_password
 drawable back
+drawable back_arr
+drawable balls
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1640,6 +1643,7 @@ drawable btn_radio_on_to_off_mtrl_animation
 drawable cab
 drawable chart
 drawable chicken_roll
+drawable chili
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1659,6 +1663,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable macandcheese
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1699,6 +1704,10 @@ drawable pancakes
 drawable pasta
 drawable pasta1
 drawable recipe
+drawable remove
+drawable soup
+drawable spiced_chicken
+drawable steakpotatoes
 drawable subtle
 drawable test_custom_background
 drawable tooltip_frame_dark
@@ -1774,6 +1783,7 @@ id add
 id alertTitle
 id aligned
 id all
+id allergyFree
 id always
 id animateToEnd
 id animateToStart
@@ -1793,6 +1803,8 @@ id bounce
 id button
 id button2
 id buttonPanel
+id buttons
+id cabinet
 id cache_measures
 id cancel_button
 id cardview_id
@@ -1802,6 +1814,7 @@ id center_vertical
 id chain
 id chains
 id checkbox
+id checkbox_meat
 id checked
 id chip
 id chip1
@@ -1826,6 +1839,7 @@ id cos
 id counterclockwise
 id custom
 id customPanel
+id custom_toast_layout
 id cut
 id date_picker_actions
 id decelerate
@@ -1881,6 +1895,7 @@ id fixed
 id flip
 id floating
 id forever
+id fridge
 id ghost_view
 id ghost_view_holder
 id gone
@@ -1902,9 +1917,11 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
 id imageView2
 id imageView4
 id imageView5
+id increase
 id info
 id ingredients
 id invisible
@@ -1913,6 +1930,7 @@ id italic
 id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
+id label
 id labelGroup
 id labeled
 id largeLabel
@@ -1925,6 +1943,10 @@ id linear
 id listMode
 id list_item
 id listview
+id load
+id loadButton
+id longpresshint
+id longpresshintparent
 id lv
 id masked
 id material_clock_display
@@ -1946,6 +1968,7 @@ id material_timepicker_mode_button
 id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
+id meat
 id message
 id method
 id middle
@@ -2011,6 +2034,7 @@ id postLayout
 id progress_circular
 id progress_horizontal
 id qty
+id quant
 id radio
 id ratio
 id recipe
@@ -2018,6 +2042,8 @@ id recipe_img_id
 id recipe_text
 id rectangles
 id recyclerView_id
+id remove
+id removehint
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2118,6 +2144,7 @@ id title
 id titleDividerNoCustom
 id title_template
 id toggle
+id toolbar2
 id top
 id topPanel
 id touch_outside
@@ -2129,11 +2156,14 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id txtvw
 id unchecked
 id uniform
 id unlabeled
 id up
 id useLogo
+id vegan
+id vegetarian
 id view_offset_helper
 id visible
 id withText
@@ -2224,6 +2254,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout inventory_list
 layout lst
 layout material_chip_input_combo
 layout material_clock_display
@@ -2292,6 +2323,7 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+layout toast
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description

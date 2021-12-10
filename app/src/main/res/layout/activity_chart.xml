@@ -11,13 +11,14 @@
         android:id="@+id/editTextTextPersonName3"
         android:layout_width="150dp"
         android:layout_height="45dp"
-        android:layout_marginTop="44dp"
-        android:layout_marginEnd="260dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="244dp"
         android:ems="10"
         android:hint="Enter item name"
         android:inputType="textPersonName"
-        android:textColorHint="@color/black"
         android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:backgroundTint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -25,7 +26,7 @@
         android:id="@+id/button"
         android:layout_width="80dp"
         android:layout_height="60dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="112dp"
         android:layout_marginEnd="16dp"
         android:backgroundTint="#003300"
         android:onClick="AddingItem"
@@ -38,33 +39,61 @@
         android:id="@+id/editTextTextPersonName2"
         android:layout_width="85dp"
         android:layout_height="45dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="116dp"
         android:layout_marginEnd="148dp"
         android:ems="10"
         android:hint="Qty"
         android:inputType="textPersonName"
         android:textColor="@color/black"
         android:textColorHint="@color/black"
+        app:backgroundTint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/finish"
-        android:layout_width="160dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="152dp"
-        android:layout_marginTop="120dp"
-        android:backgroundTint="#003300"
-        android:text="Finish Shopping"
-        android:textColor="@color/white"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/longpresshintparent">
+
+        <Button
+            android:id="@+id/finish"
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="123dp"
+            android:backgroundTint="#003300"
+            android:text="Finish Shopping"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/longpresshintparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/textView3">
+
+        <TextView
+            android:id="@+id/longpresshint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="73dp"
+            android:text="Long Press on items to Remove or Edit"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </RelativeLayout>
 
     <ListView
         android:id="@+id/lv"
         android:layout_width="410dp"
         android:layout_height="442dp"
-        android:layout_marginTop="272dp"
+        android:layout_marginTop="324dp"
         android:background="#003300"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -73,13 +102,53 @@
         android:id="@+id/textView3"
         android:layout_width="410dp"
         android:layout_height="51dp"
-        android:layout_marginTop="212dp"
+        android:layout_marginTop="272dp"
+        android:background="#003300"
+        android:gravity="center"
+        android:text=" Product Name                    Quantity"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:textSize="25sp"
-        android:background="#003300"
-        android:text=" Product Name                      Quantity"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/lv">
+
+        <TextView
+            android:id="@+id/removehint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:text="Removed items can be loaded into inventory!"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </RelativeLayout>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="412dp"
+        android:layout_height="82dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="Shopping cart" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="47dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="36dp"
+        android:src="@drawable/back_arr"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
 

@@ -33,6 +33,10 @@ public class Item {
         this.exp = " ";
     }
 
+    public Item() {
+
+    }
+
     public String getName() {return this.name;}
     public String getExp() {return this.exp;}
     public double getPrice() {return this.price;}

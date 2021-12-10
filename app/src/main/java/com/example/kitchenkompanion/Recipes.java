@@ -7,13 +7,16 @@ public class Recipes {
     String title;
     String recipe;
     int thumbnail;
+    String category;
 
-    public Recipes(String name, String ingredients, String title, String recipe, int thumbnail) {
+
+    public Recipes(String name, String ingredients, String title, String recipe, int thumbnail, String category) {
         this.name = name;
         this.ingredients = ingredients;
         this.title = title;
         this.recipe = recipe;
         this.thumbnail = thumbnail;
+        this.category = category;
     }
 
     public String getName() {
@@ -54,5 +57,8 @@ public class Recipes {
 
     public void setThumbnail(int thumbnail) {
         this.thumbnail = thumbnail;
+    }
+    public String getCategory() {
+        return category;
     }
 }

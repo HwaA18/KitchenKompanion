@@ -12,6 +12,13 @@
         android:background="#003300"
         android:orientation="horizontal">
 
+        <CheckBox android:id="@+id/checkbox_meat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/white"
+            android:checked="true"
+            />
+
         <TextView
             android:layout_width="0dp"
             android:layout_height="50dp"
@@ -41,6 +48,23 @@
             android:gravity="center"
             android:layout_weight="1"
             android:text="Quantity"/>
+        <ImageView
+            android:layout_width="22sp"
+            android:layout_height="22sp"
+            android:id="@+id/remove"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="7sp"
+            android:src="@drawable/remove"
+            />
+
+        <ImageView
+            android:layout_width="22sp"
+            android:layout_height="22sp"
+            android:id="@+id/increase"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="7sp"
+            android:src="@drawable/add"
+            />
 
     </LinearLayout>
 

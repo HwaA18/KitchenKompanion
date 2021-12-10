@@ -4,12 +4,104 @@
         "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\layout\\recipe_main_page.xml"
     },
     {
+        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\layout_lst.xml.flat",
+        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\layout\\lst.xml"
+    },
+    {
+        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable_pasta1.jpg.flat",
+        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\pasta1.jpg"
+    },
+    {
+        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable_pasta.jpg.flat",
+        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\pasta.jpg"
+    },
+    {
+        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable_donut.jpg.flat",
+        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\donut.jpg"
+    },
+    {
+        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable_pancakes.jpeg.flat",
+        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\pancakes.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable_orange1.jpg.flat",
+        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\orange1.jpg"
+    },
+    {
+        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable_macandcheese.jpg.flat",
+        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\macandcheese.jpg"
+    },
+    {
+        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable_dosa.jpg.flat",
+        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\dosa.jpg"
+    },
+    {
+        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable_balls.jpg.flat",
+        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\balls.jpg"
+    },
+    {
+        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable_recipe.jpg.flat",
+        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\recipe.jpg"
+    },
+    {
+        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable_chart.jpg.flat",
+        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\chart.jpg"
+    },
+    {
+        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\layout_ch.xml.flat",
+        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\layout\\ch.xml"
+    },
+    {
+        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable_fridge.jpg.flat",
+        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\fridge.jpg"
+    },
+    {
+        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable_soup.jpg.flat",
+        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\soup.jpg"
+    },
+    {
+        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\layout_inventory_list.xml.flat",
+        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\layout\\inventory_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable_orangeback.jpg.flat",
+        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\orangeback.jpg"
+    },
+    {
+        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
         "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\layout_toast.xml.flat",
+        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\layout\\toast.xml"
     },
     {
         "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable_cab.jpg.flat",
@@ -24,44 +116,12 @@
         "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_chart.xml.flat",
         "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\layout\\activity_chart.xml"
     },
     {
-        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\layout_lst.xml.flat",
-        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\layout\\lst.xml"
-    },
-    {
-        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable_pasta1.jpg.flat",
-        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\pasta1.jpg"
-    },
-    {
-        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable_pasta.jpg.flat",
-        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\pasta.jpg"
-    },
-    {
         "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable_dosa1.jpg.flat",
         "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\dosa1.jpg"
-    },
-    {
-        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable_donut.jpg.flat",
-        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\donut.jpg"
-    },
-    {
-        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable_pancakes.jpeg.flat",
-        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\pancakes.jpeg"
     },
     {
         "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
@@ -72,44 +132,44 @@
         "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable_orange1.jpg.flat",
-        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\orange1.jpg"
-    },
-    {
         "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable_back.jpg.flat",
-        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\back.jpg"
+        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable_chili.jpg.flat",
+        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\chili.jpg"
     },
     {
         "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable_back.jpg.flat",
+        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\back.jpg"
+    },
+    {
+        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable_add.xml.flat",
+        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\add.xml"
     },
     {
         "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable_dosa.jpg.flat",
-        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\dosa.jpg"
-    },
-    {
         "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\layout_cardview_recipe.xml.flat",
         "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\layout\\cardview_recipe.xml"
+    },
+    {
+        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable_spiced_chicken.jpg.flat",
+        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\spiced_chicken.jpg"
     },
     {
         "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_cab.xml.flat",
         "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\layout\\activity_cab.xml"
     },
     {
-        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable_back_arr.xml.flat",
+        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\back_arr.xml"
     },
     {
         "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
@@ -124,24 +184,12 @@
         "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\donut1.jpg"
     },
     {
-        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable_recipe.jpg.flat",
-        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\recipe.jpg"
-    },
-    {
-        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable_chart.jpg.flat",
-        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\chart.jpg"
+        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable_steakpotatoes.jpg.flat",
+        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\steakpotatoes.jpg"
     },
     {
         "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable_chicken_roll.jpg.flat",
         "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\chicken_roll.jpg"
-    },
-    {
-        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\layout_ch.xml.flat",
-        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\layout\\ch.xml"
-    },
-    {
-        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable_fridge.jpg.flat",
-        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\fridge.jpg"
     },
     {
         "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_fridge.xml.flat",
@@ -156,11 +204,7 @@
         "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\orange2.jpg"
     },
     {
-        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable_orangeback.jpg.flat",
-        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\orangeback.jpg"
-    },
-    {
-        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\build\\intermediates\\merged_res\\debug\\drawable_remove.xml.flat",
+        "source": "C:\\Users\\akakp\\Documents\\GitHub\\KitchenKompanion\\app\\src\\main\\res\\drawable\\remove.xml"
     }
 ]
