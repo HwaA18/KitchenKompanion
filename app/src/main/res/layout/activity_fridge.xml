@@ -25,6 +25,7 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="match_parent"
+            app:backgroundTint="#33622F"
             android:text="All"
             android:id="@+id/all"
             android:onClick="filterAll"/>

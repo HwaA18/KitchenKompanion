@@ -48,7 +48,7 @@
             android:id="@+id/remove"
             android:layout_gravity="center_vertical"
             android:layout_marginRight="7sp"
-            android:src="@drawable/remove"
+            android:src="@drawable/trash"
             />
 
     </LinearLayout>

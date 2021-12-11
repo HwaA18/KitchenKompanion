@@ -43,6 +43,10 @@ public class FridgeActivity extends AppCompatActivity {
     Button button;
     Button load;
 
+    Button fridgeButton;
+    Button all;
+    Button cabinetButton;
+
     static Hashtable<String, Item> lookup = new Hashtable<>();
 
     @Override
@@ -131,6 +135,10 @@ public class FridgeActivity extends AppCompatActivity {
         button = findViewById(R.id.button2);
         quant = findViewById(R.id.quant);
         load = findViewById(R.id.load);
+
+        fridgeButton = findViewById(R.id.fridge);
+        cabinetButton = findViewById(R.id.cabinet);
+        all = findViewById(R.id.all);
 
         c = getApplicationContext();
 
@@ -271,6 +279,10 @@ public class FridgeActivity extends AppCompatActivity {
 
     public void filterAll(View view) {
 
+        cabinetButton.setBackgroundColor(0x003300);
+        fridgeButton.setBackgroundColor(0x003300);
+        all.setBackgroundColor(0x33622F);
+
         InventoryAdapter adapter = new InventoryAdapter(this, items);
         inventoryView.setAdapter(adapter);
 
@@ -278,11 +290,18 @@ public class FridgeActivity extends AppCompatActivity {
 
     public void filterFridge(View view) {
 
+        cabinetButton.setBackgroundColor(0x003300);
+        fridgeButton.setBackgroundColor(0x33622F);
+        all.setBackgroundColor(0x003300);
         filterItems(true);
 
     }
 
     public void filterCabinet(View view) {
+        cabinetButton.setBackgroundColor(0x33622F);
+        fridgeButton.setBackgroundColor(0x003300);
+        all.setBackgroundColor(0x003300);
+
         filterItems(false);
     }
 

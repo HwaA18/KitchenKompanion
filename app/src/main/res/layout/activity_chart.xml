@@ -59,11 +59,10 @@
             android:id="@+id/finish"
             android:layout_width="160dp"
             android:layout_height="60dp"
+            android:layout_centerInParent="true"
             android:backgroundTint="#003300"
             android:text="Finish Shopping"
-            android:layout_centerInParent="true"
-            android:textColor="@color/white"
-            />
+            android:textColor="@color/white" />
 
     </RelativeLayout>
 
